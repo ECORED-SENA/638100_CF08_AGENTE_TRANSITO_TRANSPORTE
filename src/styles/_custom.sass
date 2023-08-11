@@ -29,6 +29,10 @@
   100%
     transform: translateY(0px)
 
+@media (max-width: $bp-max-xl)  
+  .banner-principal .tarjeta
+    background-image: url('../assets/curso/portada/fondo-banner-resonsive2.png') !important    
+    background-position: top left
 .banner-interno__fondo
   background-image: url('../assets/curso/temas/mini-portada.png') !important
 
@@ -180,6 +184,9 @@
   background-color: #E8E8E8
 .tabs-a__tab
   background-color: #E8E8E8
+@media screen and (max-width: 992px)
+  .slyder-a__bullets__item
+    margin: 0 5px
 
 .bloque-texto-d i 
   font-size: 2em
@@ -252,3 +259,14 @@
 @media (min-width: 992px)
   .t5-5 .col-lg-3
     width: 20%
+
+
+.tarj-hover-img .tarjeta.tarjeta-slide .tarjeta-slide__contenedor .tarjeta-slide__img
+  opacity: 0
+  transition: all 0.3s ease-out
+.tarj-hover-img .tarjeta.tarjeta-slide .tarjeta-slide__contenedor:hover .tarjeta-slide__img
+  opacity: 1
+  transition: all 0.3s ease-out
+  background-size: cover
+  background-position: top
+  background-repeat: no-repeat

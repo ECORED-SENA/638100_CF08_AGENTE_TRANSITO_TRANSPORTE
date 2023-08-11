@@ -18,7 +18,7 @@
       .col-lg-10
         .tarjeta.bg-1.p-4
           .row.align-items-center
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
+            .col-lg-2.col-md-2.col-3.mb-3.mb-lg-0.mx-auto
               img.px-lg-3(src='@/assets/curso/temas/t1/alert.svg', alt='')
             .col-lg-10.col-md-10
               p.mb-0 El Decreto 1735 de agosto de 2001 fija la Red Nacional de Carreteras a cargo de la Nación, Instituto Nacional de Vías y adopta el Plan de Expansión de la Red Nacional de Carreteras, contando también con las direcciones territoriales y empresas privadas que tienen a cargo vías en concesión
@@ -52,22 +52,22 @@
     .tarjeta.bg-slider.p-4.p-lg-5.pb-lg-3.mb-5(data-aos="fade-down")
       SlyderA(tipo="b")
         .row.justify-content-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h5 Red vial primaria o vías de primer orden
             p Estas vías, denominadas arterias, dan acceso a ciudades capitales de departamentos e integran las principales zonas de producción y consumo del país y de este con otros países. Están a cargo de la nación, con entidades como el Instituto Nacional de vías (INVIAS) y la Agencia Nacional de Infraestructura (ANI), suman aproximadamente 16.983 km equivalente al 6.9% del total de la red, deben estar pavimentadas y pueden tener doble calzada o calzada sencilla mayor o igual a 7.5 metros de ancho.
-          .col-md-5
+          .col-lg-5
             img(src='@/assets/curso/temas/t1/slide1.png', alt='')
         .row.justify-content-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h5 Red vial secundaria o vías de segundo orden
             p Reciben el nombre de vías intermunicipales, son vías de acceso que unen cabeceras municipales entre sí o provienen de una cabecera municipal y conectan con una vía primaria. En su gran mayoría están a cargo de los departamentos, representan alrededor del 21% del total de la red que equivalen a 44.000 mm, de los cuales, en la actualidad, 10560 km se encuentran pavimentados, 21120 km se encuentran en afirmado y 12320 km se encuentran destapados. Tienen una calzada sencilla menor de 7.30 m de ancho.
-          .col-md-5
+          .col-lg-5
             img(src='@/assets/curso/temas/t1/slide2.png', alt='')
         .row.justify-content-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h5 Red vial terciaria o de tercer orden
             p Unen cabeceras municipales con veredas o unen veredas entre sí. En su mayoría están a cargo de los municipios, pero se pueden encontrar algunas a cargo del INVIAS, de los departamentos y distritos especiales. Es la red más extensa del país con una longitud estimada entre los 142000 km y 143000 km equivalente al 69.46% de la red total (por su difícil acceso en algunos casos y por estar a cargo de los municipios no se tiene un valor exacto). Hacen parte de esta red los caminos veredales y vías privadas; tienen una calzada inferior a los seis metros de ancho, en su gran mayoría se encuentran en afirmado y tan solo 1400 km se encuentran en pavimento.
-          .col-md-5
+          .col-lg-5
             img(src='@/assets/curso/temas/t1/slide3.png', alt='')
 
     p.mb-4(data-aos="fade") En la red vial nacional se pueden catalogar y diferenciar algunos tipos de vías, de manera muy concreta. Aprópiese de las clases de vías que se enuncian y definen a continuación:
@@ -130,7 +130,7 @@
       .col-lg-10
         .tarjeta.bg-1.p-4
           .row.align-items-center
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
+            .col-lg-2.col-md-2.col-3.mb-3.mb-lg-0.mx-auto
               img.px-lg-3(src='@/assets/curso/temas/t1/alert.svg', alt='')
             .col-lg-10.col-md-10
               p.mb-0 En Colombia, el Ministerio de Transporte mediante Resolución 339 del 26 de febrero de 1999 “Artículo 10, creó el Sistema Integral Nacional de Información de Carreteras "SINC", como un sistema público de información único nacional que ofrece toda la información correspondiente a vías a cargo de la Nación, de los departamentos, los municipios y los distritos especiales y que conformarán el inventario nacional de carreteras.

@@ -18,7 +18,7 @@
       .col-lg-10
         .tarjeta.bg-1.p-4.p-lg-3
           .row.align-items-center
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
+            .col-lg-2.col-md-2.col-3.mb-3.mb-lg-0.mx-auto
               img.px-lg-4(src='@/assets/curso/temas/t1/alert.svg', alt='')
             .col-lg-10.col-md-10
               p.mb-0 Cabe resaltar que es el contratista, con el apoyo técnico del experto, quien realiza el PMT, dependiendo de las especificaciones y parámetros que exige la obra.
@@ -69,7 +69,7 @@
       .col-lg-10
         .tarjeta.bg-1.p-4.p-lg-3
           .row
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
+            .col-lg-2.col-md-2.col-3.mb-3.mb-lg-0.mx-auto
               img.px-lg-4(src='@/assets/curso/temas/t1/alert.svg', alt='')
             .col-lg-10.col-md-10
               p Dentro del manual de señalización se encuentran tres categorías de los trabajos a llevar a cabo:
@@ -235,7 +235,7 @@
 
     .bg-4.p-4.mb-4
       .row.align-items-center
-        .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+        .col-lg-4.d-lg-block.d-none.mb-4.mb-lg-0(data-aos="fade-right")
           img(src='@/assets/curso/temas/t4/img3.png', alt='')
         .col-lg-8.mb-4.mb-lg-0(data-aos="fade-left")
           .tarjeta-numerada.color-secundario.t4.p-2.ps-5.mb-3
@@ -279,10 +279,13 @@
       figure
         img(src='@/assets/curso/temas/t4/fig1-pc.svg', alt='Diagrama que describe las categorías de las autoridades del tránsito, así: autoridades de regulación normativa, autoridades de supervisión y autoridades de control operativo.')
     .d-block.d-md-none.mb-5(data-aos="fade-down")
-      .titulo-sexto.color-acento-contenido
-        p.mb-0 #[b Figura 1.] Figura de las autoridades de tránsito
-      figure
-        img(src='@/assets/curso/temas/t4/fig1-mob.svg', alt='Diagrama que describe las categorías de las autoridades del tránsito, así: autoridades de regulación normativa, autoridades de supervisión y autoridades de control operativo.')
+      .row.justify-content-center
+        .col-12
+          .titulo-sexto.color-acento-contenido
+            p.mb-0 #[b Figura 1.] Figura de las autoridades de tránsito
+        .col-10
+          figure
+            img(src='@/assets/curso/temas/t4/fig1-mob.svg', alt='Diagrama que describe las categorías de las autoridades del tránsito, así: autoridades de regulación normativa, autoridades de supervisión y autoridades de control operativo.')
 
     .row.justify-content-center.mb-3
       .col-lg-5.col-md-9.mb-4(data-aos="fade-right")
@@ -307,12 +310,12 @@
 
     p.mb-4(data-aos="fade") Se encuentran enmarcadas jurídicamente en el artículo 116 del Código Nacional de Tránsito (Ley 769 de 2002), el cual establece que las autoridades encargadas de controlar el tránsito deben hacer las señales de la siguiente manera:
 
-    .row(data-aos="fade-down")
-      .col-md-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/t4/flip3.png')})`}")
-            .tarjeta-flip__contenido.p-4
+    .row.justify-content-center.tarj-hover-img(data-aos="fade-down")
+      .col-md-10.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4
               img.mb-3(src='@/assets/curso/temas/t4/ico5.svg', alt='' style="width:60px;")
               ul.lista-ul--color.fa-ul.chevron
                 li
@@ -327,12 +330,12 @@
                 li
                   i.fas.fa-chevron-right
                   | Para dirigir el tránsito durante la noche, los agentes de tránsito se proveerán de bastones luminosos y de prendas reflectivas.
-      .col-md-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/t4/flip2.png')})`}")
-            .tarjeta-flip__contenido.p-4
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/t4/flip3.png')})`}")
+      .col-md-10.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4
               img.mb-3(src='@/assets/curso/temas/t4/ico5.svg', alt='' style="width:60px;")
               ul.lista-ul--color.fa-ul.chevron
                 li
@@ -340,11 +343,12 @@
                   span
                     b Regular: 
                     | hace referencia a la acción de establecer orden frente a una situación o acción que afecte la movilidad, la autoridad de tránsito se desplaza desde el frente de una calle al de la otra, cada vez que autoriza el paso, ubicándose en la prolongación de la línea del andén, dejando libre la circulación de la otra vía.
-      .col-md-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/t4/flip1.png')})`}")
-            .tarjeta-flip__contenido.p-4
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/t4/flip2.png')})`}")
+      .col-md-10.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4
               img.mb-3(src='@/assets/curso/temas/t4/ico5.svg', alt='' style="width:60px;")
               ul.lista-ul--color.fa-ul.chevron
                 li
@@ -355,6 +359,7 @@
                 li
                   i.fas.fa-chevron-right
                   | El cambio de vía libre a cerrada o viceversa será la señal ejecutiva, la cual consiste en pasar desde la posición preventiva flexionando el codo derecho u izquierdo según el sentido hacia donde quiera dirigir el tránsito, hacia el pecho de forma que la palma de la mano se acerque hacia el pecho.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/t4/flip1.png')})`}")
 
    
     Separador
@@ -368,7 +373,7 @@
         p El Manual de Señalización Vial, en el capítulo 5 menciona otros dispositivos para la regulación del tránsito en las vías del territorio nacional; estos cumplen la función de ayudar a que la circulación vehicular y peatonal se haga de manera ordenada, fluida y lo más segura posible.
         p Estos dispositivos permanecen de manera permanente en las vías, pero hay situaciones temporales que requieren el uso de señalización provisional. Es, entonces, cuando se hace necesario el uso de algunos dispositivos móviles y señalización de carácter temporal que, una vez terminada la obra o el evento, deben ser retiradas para evitar sanciones por parte de las autoridades de tránsito.
         p Adicionalmente, el manual de señalización vial en su capítulo 8 establece la señalización de calles y carreteras afectadas por eventos especiales de tránsito diferentes a obras en la vía, los cuales se clasifican así:
-      .col-lg-3.col-md-6.mb-4(data-aos="fade-left")
+      .col-lg-3.mb-4.d-lg-block.d-none(data-aos="fade-left")
         img(src='@/assets/curso/temas/t4/img5.png', alt='')
 
     .row.justify-content-center(data-aos="fade-down")
@@ -434,7 +439,7 @@
       .col-lg-10
         .tarjeta.bg-1.p-4.p-lg-3
           .row.align-items-center
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
+            .col-lg-2.col-md-2.col-3.mb-3.mb-lg-0.mx-auto
               img.px-lg-4(src='@/assets/curso/temas/t1/alert.svg', alt='')
             .col-lg-10.col-md-10
               p.mb-0 El manual recomienda la utilización de señales preventivas para eventos especiales y da unas recomendaciones en el capítulo 8 numeral 8.6.4. sobre cómo realizar operativos de control de tránsito y seguridad ciudadana
@@ -448,6 +453,7 @@ export default {
   data: () => ({
     // variables de vue
     indicadorTarjetaFlip: true,
+    indicadorTarjetaSlide: true,
   }),
   mounted() {
     this.$nextTick(() => {

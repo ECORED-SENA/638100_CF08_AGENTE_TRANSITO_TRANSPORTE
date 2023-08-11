@@ -35,9 +35,9 @@
       .col-lg-4.col-md-10.mb-4(data-aos="fade-left") 
         img(src='@/assets/curso/temas/t5/img1.png', alt='')
 
-    p.mb-4(data-aos="fade") Es decir, donde las intervenciones en situaciones de emergencia están contempladas como deber y conducta solidaria por parte de los ciudadanos, es importante tener conocimientos en atención básica y primeros auxilios, ya que de ellos dependerá la evolución favorable o no en la salud de la víctima o la persona a ser auxiliada.
+    p.mb-5(data-aos="fade") Es decir, donde las intervenciones en situaciones de emergencia están contempladas como deber y conducta solidaria por parte de los ciudadanos, es importante tener conocimientos en atención básica y primeros auxilios, ya que de ellos dependerá la evolución favorable o no en la salud de la víctima o la persona a ser auxiliada.
 
-    .row.justify-content-center.mb-4(data-aos="fade-down")
+    .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
@@ -89,21 +89,21 @@
               h4.text-white.text-center.mb-0 Tipos de señalización
             .tarjeta.bg-white.p-3.mb-3
               .row.align-items-center.justify-content-center
-                .col-lg-2.col-md-3
+                .col-lg-2.col-md-3.col-4.mb-3.mb-md-0
                   img(src='@/assets/curso/temas/t5/ico1.svg', alt='')
                 .col-lg-10.col-md-9
                   h5.mb-1 Encendido de luces
                   p Encender las luces de emergencia del vehículo, independientemente si es de día o noche, especialmente si hay poca visibilidad, se deben mantener encendidas, ya que serán luces de seguridad auxiliar que otros conductores podrán ver y adicionalmente indicar que algo está sucediendo.
             .tarjeta.bg-white.p-3.mb-3
               .row.align-items-center.justify-content-center
-                .col-lg-2.col-md-3
+                .col-lg-2.col-md-3.col-4.mb-3.mb-md-0
                   img(src='@/assets/curso/temas/t5/ico2.svg', alt='')
                 .col-lg-10.col-md-9
                   h5.mb-1 Chaleco reflectivo 
                   p Este artículo es obligatorio y hace parte del kit de carreteras que debe llevar todo vehículo que transite el territorio colombiano, el llevar el chaleco reflectivo dentro del vehículo puede ser de utilidad para hacer más visible a la persona que lo lleve puesto.
             .tarjeta.bg-white.p-3.mb-3
               .row.align-items-center.justify-content-center
-                .col-lg-2.col-md-3
+                .col-lg-2.col-md-3.col-4.mb-3.mb-md-0
                   img(src='@/assets/curso/temas/t5/ico3.svg', alt='')
                 .col-lg-10.col-md-9
                   h5.mb-1 Triángulos o conos de seguridad 
@@ -120,7 +120,7 @@
       .col-lg-8.mb-4(data-aos="fade-right") 
         p Es la atención primaria que recibe un herido o lesionado en lugar del incidente y es la ayuda elemental que se brinda mientras llegan los profesionales especializados en el manejo de emergencia y atención a víctimas.
         p Existen unos aspectos importantes y esenciales que se deben tener en cuenta en el momento de brindar los primeros auxilios, luego de evaluar la zona como ya se mencionó en un tema anterior, es momento de auxiliar a la víctima o a las víctimas, por lo cual, se recomienda prestar mucha atención a los puntos que se describen a continuación, en caso de que sea usted quien se encuentre en la zona en el momento y deba auxiliarlos, estos son:
-      .col-lg-4.col-md-10.mb-4(data-aos="fade-left") 
+      .col-lg-4.d-none.d-lg-block.mb-4(data-aos="fade-left") 
         img(src='@/assets/curso/temas/t5/img4.png', alt='')
 
     .tarjeta.bg-slider.p-4.p-lg-5.pb-lg-3.mb-5(data-aos="fade-down")
@@ -433,7 +433,7 @@
 
     .tarjeta.bg-1.p-4(data-aos="fade-down")
       .row.align-items-center 
-        .col-lg-4
+        .col-lg-4.d-lg-block.d-none
           img(src='@/assets/curso/temas/t5/img6.png', alt='')
         .col-lg-8
           ul.lista-ul--color.fa-ul.circulo
@@ -470,7 +470,7 @@
       .col-lg-8.mb-4(data-aos="fade-right") 
         p Dentro de los protocolos de emergencia es fundamental la preservación y el cuidado inicial de la escena y los peligros que en lugar se puedan presentar al momento de brindar los primeros auxilios, por lo que es primordial realizar el debido aseguramiento de la escena teniendo en cuenta las medidas de precaución, delimitación y señalización del área donde se está atendiendo la contingencia, buscando con esto tener el control absoluto del lugar del acontecimiento y evitar así que se presenten efectos secundarios al personal que esté prestando sus servicio en atención a la emergencia, a las víctimas involucradas o a las personas que se encuentran cerca de la escena.
         p Previo a cualquier intervención en el área de emergencia, viene la valoración que debe tener en cuenta los siguientes puntos claves:
-      .col-lg-4.col-md-10.mb-4(data-aos="fade-left") 
+      .col-lg-4.d-lg-block.d-none.mb-4(data-aos="fade-left") 
         img(src='@/assets/curso/temas/t5/img7.png', alt='')
 
     .row.mb-2(data-aos="fade-down")
@@ -520,7 +520,7 @@
       .col-lg-8.mb-4(data-aos="fade-right")
         p De acuerdo a lo planteado anteriormente, cuando se realice la identificación del mecanismo lesional presente en la escena, se deberá valorar los parámetros que intervienen en el mecanismo, como estado del vehículo y de acuerdo al mecanismo y evaluación de los factores analizados se plantea la sospecha de lesiones en los involucrados permitiendo encaminar los primeros auxilios hacia las necesidades del paciente.  
         p La adecuada señalización del área de emergencia es fundamental para garantizar el alistamiento de la escena, evitando y controlando que los espectadores intervengan o generen demora en las acciones de primeros auxilios, así mismo evitar nuevos accidentes o mayores afectaciones en la escena existente, dando un mayor acceso al personal que atenderá la emergencia que de acuerdo al tipo de accidente deben valorar los siguientes parámetros:    
-      .col-lg-4.col-md-9.mb-4(data-aos="fade-left")
+      .col-lg-4.d-lg-block.d-none.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t5/img9.png', alt='')
 
     .row.fondo-t5.align-items-center.py-5
@@ -681,7 +681,7 @@
           .titulo-sexto.color-acento-contenido
             p.mb-0 #[b Figura 3.] Valoración global del estado del paciente
           figure
-            img(src='@/assets/curso/temas/t5/fig3-pc.svg', alt='Esquema que señala los procedimientos en la valoración global de un paciente: la valoración global determina el grado de lesiones, la valoración primaria incluye valoración y observación de riesgos del paciente y, finalmente, la valoración secundaria vincula comunicación e intercambio de información con el paciente.')
+            img(src='@/assets/curso/temas/t5/fig3-pc.svg', alt='Esquema que señala los procedimientos en la valoración global de un paciente: la valoración global determina el grado de lesiones, la valoración primaria incluye valoración y observación de riesgos del paciente y, finalmente, la valoración secundaria vincula comunicación e intercambio de información con el paciente.')  
         .d-block.d-md-none
           .titulo-sexto.color-acento-contenido
             p.mb-0 #[b Figura 3.] Valoración global del estado del paciente
@@ -843,8 +843,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Primeros auxilios. Manual de primeros auxilios
-                  p.text-small.mb-0 Para profundizar en el tema le invito a revisar el Manual de primeros auxilios.
+                  h3.mb-1 Manual de primeros auxilios
+                  p.text-small.mb-0 Para profundizar en el tema le invitamos a consultar el Manual de primeros auxilios.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/manual_primeros_auxilios.pdf')" target="_blank")
                     span Descargar
@@ -1200,7 +1200,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Reanimación cardiopulmonar. Fundación Valle de Lili TV.
-                  p.text-small.mb-0 Reanimación cardiopulmonar en niños, jóvenes y adultos.
+                  p.text-small.mb-0 Le invitamos a consultar el video Reanimación Cardiopulmonar (RCP) en niños con el fin de ampliar los conocimientos en esta área.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="('https://www.youtube.com/watch?v=7xzKkzUmj_s')" target="_blank")
                     span Ver video
@@ -1540,7 +1540,7 @@
       .col-lg-10
         .tarjeta.bg-1.p-4
           .row
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
+            .col-lg-2.col-md-2.col-3.mb-3.mb-lg-0.mx-auto
               img.px-lg-3(src='@/assets/curso/temas/t1/alert.svg', alt='')
             .col-lg-10.col-md-10
               p Generalmente el tensiómetro (aparato que mide la presión arterial) muestra primero la presión sistólica (número mayor) y luego la presión diastólica (número menor), así: 90/60, lo cual quiere decir: #[b que la presión sistólica es de 90 y la presión diastólica es de 60.]
@@ -1573,7 +1573,7 @@
       .col-lg-10
         .tarjeta.bg-1.p-4.py-3
           .row.align-items-center
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
+            .col-lg-2.col-md-2.col-3.mb-3.mb-lg-0.mx-auto
               img.px-lg-3(src='@/assets/curso/temas/t1/alert.svg', alt='')
             .col-lg-10.col-md-10
               p.mb-0 Si las pupilas están muy dilatadas el lesionado puede estar presentando shock o una hemorragia severa y si las pupilas no están de igual tamaño puede indicar una parálisis o una herida en la cabeza.
@@ -1631,8 +1631,10 @@
         .d-block.d-md-none(data-aos="fade-down")
           .titulo-sexto.color-acento-contenido
             p.mb-0 #[b Figura 4.] Equipo radiotransmisor
-          figure
-            img(src='@/assets/curso/temas/t5/fig4-mob.svg', alt='Esquema que destaca los tres tipos de equipos radiotransmisores, que son: equipos de base, equipos móviles y equipos portátiles.')
+          .row.justify-content-center
+            .col-9
+              figure
+                img(src='@/assets/curso/temas/t5/fig4-mob.svg', alt='Esquema que destaca los tres tipos de equipos radiotransmisores, que son: equipos de base, equipos móviles y equipos portátiles.')
 
     .row.justify-content-start.mb-4
       .col-auto(data-aos="fade")
@@ -1747,7 +1749,7 @@
       .col-lg-10
         .tarjeta.bg-1.p-4.p-lg-3
           .row.align-items-center
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
+            .col-lg-2.col-md-2.col-3.mb-3.mb-lg-0.mx-auto
               img.px-lg-4(src='@/assets/curso/temas/t1/alert.svg', alt='')
             .col-lg-10.col-md-10
               p.mb-0 En el momento de efectuar el traslado de las víctimas, este se realizará en vehículos especializados para emergencias como lo son las ambulancias, ya que cuentan con el equipo y personal capacitado para la atención en todo el trayecto hasta el centro de médico de atención más cercano, garantizando que, en caso de requerirse maniobras de reanimación, el personal capacitado pueda efectuarlas y garantizar que la víctima no sufra mayores complicaciones en el traslado.
@@ -1821,7 +1823,7 @@
           .pt-3
             h5 Expectativas frente a los resultados del tratamiento
             p.mb-0 Aquí se cuestiona que espera el paciente que suceda en su proceso de tratamiento con el fin de conocer sus expectativas frente a la terapia y los resultados.
-      .col-lg-4.col-md-9.mb-4(data-aos="fade-left")
+      .col-lg-4.d-lg-block.d-none.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t5/img29.png', alt='')
 
     p.mb-4(data-aos="fade") Una vez se define lo anterior, el <em>triage</em> va a permitir la priorización de los pacientes según el riesgo clínico, lo que permite dar un manejo a la cantidad de pacientes cuando la demanda y las necesidades clínicas desbordan los recursos disponibles.
@@ -1830,7 +1832,7 @@
       .col-lg-10
         .tarjeta.bg-1.p-4.p-lg-3
           .row.align-items-center
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
+            .col-lg-2.col-md-2.col-3.mb-3.mb-lg-0.mx-auto
               img.px-lg-4(src='@/assets/curso/temas/t1/alert.svg', alt='')
             .col-lg-10.col-md-10
               p.mb-0 El triage maneja unas escalas, #[b 5 niveles de categorización], aplicando la máxima que dice que lo urgente no siempre es grave y lo grave no es siempre urgente y así se logra realizar una clasificación de pacientes de acuerdo a su grado de urgencia, de tal manera que los más urgentes serán atendidos primero y el resto serán evaluados en varias ocasiones hasta ser valorados por el área médica.
@@ -1898,7 +1900,7 @@
         img(src='@/assets/curso/temas/t5/img32.png', alt='')
 
     .row.justify-content-center
-      .col-lg-2.col-md-6.mb-4(data-aos="fade-right")
+      .col-lg-2.d-lg-block.d-none.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/t5/img33.svg', alt='')
       .col-lg-10.mb-4(data-aos="fade-left")
         p Otro aspecto importante, es mostrar firmeza y cortesía, para lograr la cooperación de los testigos y otras personas para conseguir mejores resultados para la víctima. Todo esto debe estar de la mano con los conocimientos en atención de primeros auxilios, técnicas, maniobras y rescates para que el desempeño en la emergencia sea el mejor en pro de preservar la vida de los involucrados.
@@ -2086,7 +2088,7 @@
       .col-lg-8.mb-4(data-aos="fade-right")
         .tarjeta.bg-1.p-4.p-lg-3.h-100
           .row
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
+            .col-lg-2.col-md-2.col-3.mb-3.mb-lg-0.mx-auto
               img.px-lg-2(src='@/assets/curso/temas/t1/alert.svg', alt='')
             .col-lg-10.col-md-10
               h5 Clave

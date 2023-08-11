@@ -215,22 +215,21 @@ export default {
     {
       tema: 'Características y condiciones generales del paciente',
       referencia:
-        'Ministerio de salud de Argentina. (2016). <em>Manual de primeros auxilios y prevención de lesiones</em>. ',
-      tipo: 'pdf',
-      link:
-        'https://www.argentina.gob.ar/sites/default/files/manual_1ros_auxilios_web.pdf',
+        'Ministerio de salud de Argentina. (2016). Manual de primeros auxilios y prevención de lesiones. ',
+      tipo: 'PDF',
+      descarga: '/downloads/manual_1ros_auxilios_web.pdf',
     },
     {
       tema: 'Valoración de la víctima (<em>triage</em>) concepto de anamnesis ',
       referencia:
-        'Vásquez Guzmán, M.A & Morales, Hernández A.E. et al. (2017). <em>Correlación clínica del triage con el diagnóstico clínico de ingreso y egreso realizado con los pacientes que acuden al servicio médico en urgencias de un hospital privado</em>.',
+        'Vásquez Guzmán, M.A & Morales, Hernández A.E. et al. (2017). Correlación clínica del triage con el diagnóstico clínico de ingreso y egreso realizado con los pacientes que acuden al servicio médico en urgencias de un hospital privado.',
       tipo: 'web-artículo',
       link:
         'https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0186-48662017000400466',
     },
     {
       tema: 'Planes de manejo de tránsito',
-      referencia: 'Leyes.co (2014 – 2021). <em>Código penal</em>.',
+      referencia: 'Leyes.co (2014 – 2021). Código penal.',
       tipo: 'Normativa ',
       link:
         'https://leyes.co/codigo_penal/152.htm#:~:text=El%20que%2C%20con%20ocasi%C3%B3n%20y,seis%20(66.66)%20a%20ciento%20cincuenta',
@@ -238,7 +237,7 @@ export default {
     {
       tema: 'Planes de manejo de tránsito',
       referencia:
-        'Poder público, Rama legislativa. (Agosto 6 de 2002). <em>Ley 769 de 2002. Por la cual se expide el Código Nacional de Tránsito Terrestre y se dictan otras disposiciones</em>. ',
+        'Poder público, Rama legislativa. (Agosto 6 de 2002). Ley 769 de 2002. Por la cual se expide el Código Nacional de Tránsito Terrestre y se dictan otras disposiciones. ',
       tipo: 'Normativa',
       link:
         'http://www.secretariasenado.gov.co/senado/basedoc/ley_0769_2002.htm',
@@ -321,9 +320,9 @@ export default {
       link: 'https://www.mintransporte.gov.co/glosario/',
     },
     {
-      referencia:
-        'Publicaciones Médicas. (2007). <em>Manual de Semiología</em>. ',
-      link: 'http://publicacionesmedicina.uc.cl/ManualSemiologia/130Facies.htm',
+      referencia: 'Gazitúa, R. (2004). <em>Manual de Semiología</em>. ',
+      link:
+        'https://www.studocu.com/co/document/universidad-de-sucre/embriologia/manual-de-semiologia-ricardo-gazitua/10323104',
     },
     {
       referencia:

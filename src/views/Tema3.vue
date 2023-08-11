@@ -19,7 +19,7 @@
       .col-lg-10
         .tarjeta.bg-1.p-4.p-lg-3
           .row.align-items-center
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
+            .col-lg-2.col-md-2.col-3.mb-3.mb-lg-0.mx-auto
               img.px-lg-4(src='@/assets/curso/temas/t1/alert.svg', alt='')
             .col-lg-10.col-md-10
               p.mb-0 Todos y cada uno de estos espacios públicos, equipan y dan identidad a una ciudad o localidad ya que reúnen personas, ayudan a la socialización de las mismas y están disponibles para su uso y el disfrute de la comunidad entera.
@@ -150,7 +150,7 @@
       .col-lg-10
         .tarjeta.bg-1.p-4.p-lg-3
           .row.align-items-center
-            .col-lg-2.col-md-2.col-4.mb-3.mb-lg-0
+            .col-lg-2.col-md-2.col-3.mb-3.mb-lg-0.mx-auto
               img.px-lg-4(src='@/assets/curso/temas/t1/alert.svg', alt='')
             .col-lg-10.col-md-10
               p.mb-0 Si bien el diseño, construcción, mantenimiento y conservación es competencia de las autoridades, el hacer buen uso de ellos es tarea y compromiso de toda la ciudadanía, sin importar las condiciones particulares de los individuos.

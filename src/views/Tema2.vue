@@ -236,8 +236,8 @@
     
     p.mb-4(data-aos="fade") A continuación se verá la representación visual de cada una de las señales informativas de distancias a ciudades y localidades.
 
-    .row.mb-5(data-aos="fade-down")
-      .col-lg-4.col-md-6
+    .row.mb-5.justify-content-center(data-aos="fade-down")
+      .col-lg-4.col-md-6.mb-3.mb-lg-0
         .tarjeta.justify-content-center.p-4.text-center.bg-color-primario.h-100
           img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj3-img1.png' style="max-width: 180px")
           h4.text-center Señales informativas primer grupo
@@ -270,7 +270,7 @@
             a.boton.personalizado.indicador__container(:href="obtenerLink('/downloads/InformativasPrimerGrupo.pdf')" target="_blank" type="application/pdf" @mouseover="mostrarIndicador = false")
               span Ver señales
               .indicador--click(v-if="mostrarIndicador")
-      .col-lg-4.col-md-6
+      .col-lg-4.col-md-6.mb-3.mb-lg-0
         .tarjeta.justify-content-center.text-center.p-4.bg-color-primario.h-100
           img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj3-img2.png' style="max-width: 180px")
           h4 Señales Informativas segundo grupo
@@ -278,7 +278,7 @@
           .d-flex.mt-auto.justify-content-center.mb-0
             a.boton.personalizado(:href="obtenerLink('/downloads/InformativasSegundoGrupo.pdf')" target="_blank" type="application/pdf")
               span Ver señales
-      .col-lg-4.col-md-6
+      .col-lg-4.col-md-6.mb-3.mb-lg-0
         .tarjeta.justify-content-center.p-4.bg-color-primario.h-100
           img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj3-img3.png' style="max-width: 180px")
           h4.text-center Señales informativas tercer grupo
