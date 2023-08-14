@@ -307,7 +307,7 @@ export default {
     },
     {
       referencia:
-        'Graf, C. (20202). Tecnologías de información y comunicación (TIC’s). Primer paso para la implementación de telesalud y de telemedicina. ',
+        'Graf, C. (2020). Tecnologías de información y comunicación (TIC’s). Primer paso para la implementación de telesalud y de telemedicina. ',
       link: 'http://www.revista.spr.org.py/index.php/spr/article/view/114',
     },
     {
