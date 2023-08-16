@@ -42,11 +42,11 @@
     .row.justify-content-center
       .col-lg-6.mb-4(data-aos="fade-right")
         p Son 58 y su finalidad es notificar las prioridades en el uso de las vías, prohibiciones, restricciones, obligaciones y autorizaciones existentes, donde su transgresión constituye una infracción de tránsito, presentando su clasificación. En el numeral 2.2 Señales reglamentarias del Manual de señalización vial, dentro de los anexos, se pueden encontrar más información y significados de cada sigla.
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Manual_Senalizacion_Vial_2015.pdf')" target="_blank")
+        a.anexo.mb-4(:href="('https://www.mintransporte.gov.co/documentos/29/manuales-de-senalizacion-vial/')" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
+            img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p #[b Anexo.] Manual de señalización vial.
+            p #[b Anexo.] Manual de Señalización Vial - 2015
       .col-lg-6.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t2/img3.png', alt='')
 
