@@ -41,7 +41,12 @@
     
     .row.justify-content-center
       .col-lg-6.mb-4(data-aos="fade-right")
-        p Son 58 y su finalidad es notificar las prioridades en el uso de las vías, prohibiciones, restricciones, obligaciones y autorizaciones existentes, donde su transgresión constituye una infracción de tránsito, presentando su clasificación. En el numeral 2.2 Señales reglamentarias del Manual de señalización vial, dentro de los anexos, se pueden encontrar más información y significados de cada sigla
+        p Son 58 y su finalidad es notificar las prioridades en el uso de las vías, prohibiciones, restricciones, obligaciones y autorizaciones existentes, donde su transgresión constituye una infracción de tránsito, presentando su clasificación. En el numeral 2.2 Señales reglamentarias del Manual de señalización vial, dentro de los anexos, se pueden encontrar más información y significados de cada sigla.
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Manual_Senalizacion_Vial_2015.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p #[b Anexo.] Manual de señalización vial.
       .col-lg-6.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t2/img3.png', alt='')
 
@@ -89,7 +94,7 @@
             .indicador--click(v-if="mostrarIndicador")
       .tarjeta.justify-content-center.p-4.text-center.bg-color-primario
         img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj-img2.png' style="max-width: 180px")
-        h4 Señales preventivas segundo grupo
+        h4 Señales de prohibición segundo grupo
         p.mb-4 Prohibición de maniobras y giros
         .d-flex.mt-auto.justify-content-center.mb-0
           a.boton.personalizado(:href="obtenerLink('/downloads/ProhibicionSegundoGrupo.pdf')" target="_blank" type="application/pdf")

@@ -675,7 +675,7 @@
 
     p.mb-4(data-aos="fade") Se debe incluir en esta serie de procedimientos una valoración global del estado del paciente:
 
-    .row.justify-content-center.mb-4(data-aos="fade-down")
+    .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10
         .d-md-block.d-none
           .titulo-sexto.color-acento-contenido
@@ -688,8 +688,6 @@
           figure
             img(src='@/assets/curso/temas/t5/fig3-mob.svg', alt='Esquema que señala los procedimientos en la valoración global de un paciente: la valoración global determina el grado de lesiones, la valoración primaria incluye valoración y observación de riesgos del paciente y, finalmente, la valoración secundaria vincula comunicación e intercambio de información con el paciente.')
     
-    p.mb-5(data-aos="fade") Uno de los elementos más importantes en este momento del proceso es conocer el estado actual del paciente por lo que es importante conocer exactamente cómo se encuentra, por lo que se le hace una revisión de pies a cabeza, la cual se describe a continuación:
-
     .row.justify-content-start.mb-4
       .col-auto(data-aos="fade")
         .list
@@ -710,7 +708,7 @@
             p.mb-0 Se revisan heridas o contusiones debajo del cabello y la cara, hemorragias, sangrado por los oídos, lesiones en los ojos y aspecto general del rostro.
           .row(titulo="2. Cuello")
             p.mb-0 Tocarlo con suavidad, en caso de tener que movilizar a los pacientes se tiene que mantener en el mismo sentido de la cabeza y tronco, revisar pulso carotideo y aflojar las prendas de vestir.
-          .row(titulo="3. Torax")
+          .row(titulo="3. Tórax")
             p.mb-0 Revisar heridas o deformaciones de la caja torácica y revisar movimientos respiratorios.
           .row(titulo="4. Abdomen")
             p.mb-0 Revisar heridas, localizar dolores presentes, palpar si el abdomen está duro o depresible, prever posibles lesiones internas.
@@ -1762,21 +1760,21 @@
       figcaption Video. Excepciones en el traslado de un paciente
 
     p(data-aos="fade") A manera de conclusión es vital que una persona que preste los primeros auxilios y que haga las veces de primer respondiente tenga conocimientos claros sobre cómo hacer el manejo del paciente de forma adecuada, lo cual necesariamente incluye estar en capacidad de hacer una evaluación del estado básico del paciente, tener los conocimientos suficientes para tomar las decisiones adecuadas para moverlo o trasladarlo si se requiere, o sí es preferible esperar al personal de emergencias.
-    p(data-aos="fade") Por otro lado, cuando es llevado al centro de salud más cercano es recibido por el personal médico donde le hacen una evaluación del estado de salud general, es decir un triage y definen el procedimiento a seguir, según las condiciones del paciente, si es remitido a uno de mayor nivel o si continúa en el mismo sitio y con cual tipo de atención requiere.
+    p(data-aos="fade") Por otro lado, cuando es llevado al centro de salud más cercano es recibido por el personal médico donde le hacen una evaluación del estado de salud general, es decir un #[em triage] y definen el procedimiento a seguir, según las condiciones del paciente, si es remitido a uno de mayor nivel o si continúa en el mismo sitio y con cual tipo de atención requiere.
 
 
     Separador
 
     #t_5_12
     .titulo-segundo.color-acento-contenido(data-aos="fade")
-      h2 5.12 Valoración de la víctima (triage) concepto de anamnesis
+      h2 5.12 Valoración de la víctima (#[em triage]) concepto de anamnesis
 
     .row.justify-content-center
       .col-lg-4.col-md-8.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/t5/img28.png', alt='')
       .col-lg-8.mb-4(data-aos="fade-left")
         p Dentro del proceso de valoración y como un mecanismo para tener de primera mano la información del paciente, aparece la anamnesis, la cual básicamente es un proceso de la exploración clínica que recopila datos a través de un interrogatorio-diálogo con el fin de conocer directamente del paciente aspectos relevantes de su situación de salud.
-        p Lo anterior, es diferente al triage, que proviene de la palabra francesa trier definida como separar o clasificar, utilizada desde las batallas napoleónicas para priorizar la atención urgente de los heridos y pacientes.	
+        p Lo anterior, es diferente al #[em triage], que proviene de la palabra francesa #[em trier] definida como separar o clasificar, utilizada desde las batallas napoleónicas para priorizar la atención urgente de los heridos y pacientes.	
 
     .row.justify-content-start.mb-4
       .col-auto(data-aos="fade")
@@ -1835,7 +1833,7 @@
             .col-lg-2.col-md-2.col-3.mb-3.mb-lg-0.mx-auto
               img.px-lg-4(src='@/assets/curso/temas/t1/alert.svg', alt='')
             .col-lg-10.col-md-10
-              p.mb-0 El triage maneja unas escalas, #[b 5 niveles de categorización], aplicando la máxima que dice que lo urgente no siempre es grave y lo grave no es siempre urgente y así se logra realizar una clasificación de pacientes de acuerdo a su grado de urgencia, de tal manera que los más urgentes serán atendidos primero y el resto serán evaluados en varias ocasiones hasta ser valorados por el área médica.
+              p.mb-0 El #[em triage] maneja unas escalas, #[b 5 niveles de categorización], aplicando la máxima que dice que lo urgente no siempre es grave y lo grave no es siempre urgente y así se logra realizar una clasificación de pacientes de acuerdo a su grado de urgencia, de tal manera que los más urgentes serán atendidos primero y el resto serán evaluados en varias ocasiones hasta ser valorados por el área médica.
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-10
@@ -1846,8 +1844,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Triage 
-                  p.text-small Sabe qué es el triage y por qué es importante en un servicio de salud… Secretaria de salud de Zipaquirá
+                  h3.mb-1 #[em triage] 
+                  p.text-small Sabe qué es el #[em triage] y por qué es importante en un servicio de salud… Secretaria de salud de Zipaquirá
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="('https://www.youtube.com/watch?v=85qzAbncauM')" target="_blank")
                     span Reproducir video
@@ -1860,7 +1858,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Estudio de caso 
-                  p.text-small Correlación clínica del triage con el diagnóstico clínico de ingreso y egreso realizado con los pacientes que acuden al servicio médico en urgencias de un hospital privado.
+                  p.text-small Correlación clínica del #[em triage] con el diagnóstico clínico de ingreso y egreso realizado con los pacientes que acuden al servicio médico en urgencias de un hospital privado.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="('https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0186-48662017000400466')" target="_blank")
                     span Ir al sitio

@@ -237,7 +237,7 @@ export default {
     {
       tema: 'Planes de manejo de tránsito',
       referencia:
-        'Poder público, Rama legislativa. (Agosto 6 de 2002). Ley 769 de 2002. Por la cual se expide el Código Nacional de Tránsito Terrestre y se dictan otras disposiciones. ',
+        'Ley 769 de 2002. [Poder público, Rama legislativa]. Por lo cual se expide el Código Nacional de Tránsito Terrestre y se dictan otras disposiciones. Agosto 6 de 2002.',
       tipo: 'Normativa',
       link:
         'http://www.secretariasenado.gov.co/senado/basedoc/ley_0769_2002.htm',
@@ -302,12 +302,17 @@ export default {
     },
     {
       referencia:
-        'Díaz Polo, J. & Hurtado Fuentes, J. A. et. al. (2021). Análisis de tipo de triage a nivel prehospitalario como propuesta metodológica en el programa de atención prehospitalaria de la Universidad Militar Nueva Granada. ',
+        'Díaz Polo, J. & Hurtado Fuentes, J. A. et. al. (2021). Análisis de tipo de triage a nivel prehospitalario como propuesta metodológica en el programa de atención prehospitalaria de la Universidad Militar Nueva Granada.',
       link: 'https://repository.unimilitar.edu.co/handle/10654/39352',
     },
     {
+      referencia: 'Gazitúa, R. (2004). <em>Manual de semiología</em>.',
+      link:
+        'https://www.studocu.com/co/document/universidad-de-sucre/embriologia/manual-de-semiologia-ricardo-gazitua/10323104',
+    },
+    {
       referencia:
-        'Graf, C. (2020). Tecnologías de información y comunicación (TIC’s). Primer paso para la implementación de telesalud y de telemedicina. ',
+        'Graf, C. (20202). Tecnologías de información y comunicación (TIC’s). Primer paso para la implementación de telesalud y de telemedicina.',
       link: 'http://www.revista.spr.org.py/index.php/spr/article/view/114',
     },
     {
@@ -316,13 +321,8 @@ export default {
       link: 'https://repository.ces.edu.co/handle/10946/5360',
     },
     {
-      referencia: 'Ministerio de Transporte. (2022). <em>Glosario</em>. ',
+      referencia: 'Ministerio de Transporte. (2022). <em>Glosario</em>.',
       link: 'https://www.mintransporte.gov.co/glosario/',
-    },
-    {
-      referencia: 'Gazitúa, R. (2004). <em>Manual de Semiología</em>. ',
-      link:
-        'https://www.studocu.com/co/document/universidad-de-sucre/embriologia/manual-de-semiologia-ricardo-gazitua/10323104',
     },
     {
       referencia:
@@ -331,21 +331,21 @@ export default {
     },
     {
       referencia:
-        'Olivero, R. & Barraez, C.(2011). <em>Importancia de la semiología médica en la adquisición de competencias de un médico</em>. ',
+        'Olivero, R. & Barraez, C.(2011). <em>Importancia de la semiología médica en la adquisición de competencias de un médico</em>.',
       link:
         'http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S1316-71382011000300009',
     },
     {
       referencia:
-        'Organización Mundial de la Salud. (2022). <em>Traumatismos causados por el tránsito</em>. ',
+        'Organización Mundial de la Salud. (2022). <em>Traumatismos causados por el tránsito</em>.',
       link:
         'https://www.who.int/es/news-room/fact-sheets/detail/road-traffic-injuries',
     },
     {
       referencia:
-        'Organización Panamericana de la Salud. (2018). <em>Nuevo informe de la OMS destaca que los progresos han sido insuficientes en abordar la falta de seguridad en las vías de tránsito de todo el mundo</em>. ',
+        'Organización Panamericana de la Salud. (2018). <em>Nuevo informe de la OMS destaca que los progresos han sido insuficientes en abordar la falta de seguridad en las vías de tránsito de todo el mundo</em>.',
       link:
-        'https://www3.paho.org/hq/index.php?option=com_content&view=article&id=14857:new-who-report-highlights-insufficient-progress-to-tackle-lack-of-safety-on-the-world-s-roads&Itemid=0&lang=es#gsc.tab=0 ',
+        'https://www3.paho.org/hq/index.php?option=com_content&view=article&id=14857:new-who-report-highlights-insufficient-progress-to-tackle-lack-of-safety-on-the-world-s-roads&Itemid=0&lang=es#gsc.tab=0',
     },
   ],
   creditos: [
