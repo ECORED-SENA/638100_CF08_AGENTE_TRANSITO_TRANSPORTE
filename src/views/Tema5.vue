@@ -588,32 +588,60 @@
 
     p.mb-4(data-aos="fade") Estas se pueden clasificar de la siguiente manera:
 
-    SlyderF.mb-4(columnas="col-md-6 col-lg-4" data-aos="fade-down")
-      .tarjeta.justify-content-center.bg-3
+    .d-block.d-lg-none
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj4-img1.png')
         .p-4
           h5.mb-1 Condición indeterminada
           p.mb-0 Esta se presenta cuando el paciente se encuentra en espera de una adecuada evaluación médica.
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj4-img2.png')
         .p-4
           h5.mb-1 Condición buena
           p.mb-0 Una vez se realiza la evaluación se determina que los signos vitales están estables y están dentro de los parámetros y de los límites normales. En esta condición, generalmente el paciente se encuentra consciente y en general en un estado de comodidad.
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj4-img3.png')
         .p-4
           h5.mb-1 Condición regular
           p.mb-0 En esta condición los signos vitales del paciente son estables y se registran dentro de los parámetros normales, al igual que en la condición anterior el paciente se encuentra en estado consciente, pero se siente incómodo, a pesar que los indicadores de su condición sean favorables.
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj4-img4.png')
         .p-4
           h5.mb-1 Condición grave
           p.mb-0 En este caso, los signos vitales son inestables y están fuera de los parámetros normales, se puede observar que el paciente se encuentra gravemente enfermo y sus indicadores de condición son cuestionables.
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj4-img5.png')
         .p-4
           h5.mb-1 Condición crítica
           p.mb-0 En este estado los signos vitales son inestables y están fuera de los parámetros o límites normales. Se puede dar la condición en que el paciente esté inconsciente y los indicadores de su condición sean muy desfavorables.
+
+    .d-none.d-lg-block
+      SlyderF.mb-4(columnas="col-md-6 col-lg-4" data-aos="fade-down")
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj4-img1.png')
+          .p-4
+            h5.mb-1 Condición indeterminada
+            p.mb-0 Esta se presenta cuando el paciente se encuentra en espera de una adecuada evaluación médica.
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj4-img2.png')
+          .p-4
+            h5.mb-1 Condición buena
+            p.mb-0 Una vez se realiza la evaluación se determina que los signos vitales están estables y están dentro de los parámetros y de los límites normales. En esta condición, generalmente el paciente se encuentra consciente y en general en un estado de comodidad.
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj4-img3.png')
+          .p-4
+            h5.mb-1 Condición regular
+            p.mb-0 En esta condición los signos vitales del paciente son estables y se registran dentro de los parámetros normales, al igual que en la condición anterior el paciente se encuentra en estado consciente, pero se siente incómodo, a pesar que los indicadores de su condición sean favorables.
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj4-img4.png')
+          .p-4
+            h5.mb-1 Condición grave
+            p.mb-0 En este caso, los signos vitales son inestables y están fuera de los parámetros normales, se puede observar que el paciente se encuentra gravemente enfermo y sus indicadores de condición son cuestionables.
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj4-img5.png')
+          .p-4
+            h5.mb-1 Condición crítica
+            p.mb-0 En este estado los signos vitales son inestables y están fuera de los parámetros o límites normales. Se puede dar la condición en que el paciente esté inconsciente y los indicadores de su condición sean muy desfavorables.
 
     p.mb-5(data-aos="fade") Además, existen algunas características para determinar las condiciones generales del paciente, basados en las facies o expresiones de la cara, que se pueden evidenciar en un examen físico general, pues orienta a ciertos rasgos característicos de alguna enfermedad determinada, entre las cuales se encuentran:
 
@@ -626,52 +654,100 @@
           .list__txt.box-ico.p-0.px-4.d-flex.align-items-center
             h3.mb-0 Facies o expresiones de la cara
 
-    SlyderF.mb-4(columnas="col-md-6 col-lg-4" data-aos="fade-down")
-      .tarjeta.justify-content-center.bg-3
+    .d-block.d-lg-none
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj5-img1.png')
         .p-4
           h5.mb-1 Facie acromegálica
           p.mb-0 Se caracteriza por prominencia de la mandíbula, crecimiento de huesos y tejidos blandos, lengua grande. Esta condición se da en pacientes con tumores hipofisarios debido a hormonas de crecimiento.
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj5-img2.png')
         .p-4
           h5.mb-1 Facie cushingoide
           p.mb-0 La cara se ve más redonda, piel más fina y mayor cantidad de vellos y acné. Se presenta por exceso de corticoides. 
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj5-img3.png')
         .p-4
           h5.mb-1 Facie hipertiroidia
           p.mb-0 Mirada expresiva por retracción del párpado superior; la piel se aprecia fina y húmeda. Se asocia a un exceso de hormonas tiroideas.
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj5-img4.png')
         .p-4
           h5.mb-1 Facie hipotiroidia o mixedematosa
           p.mb-0 Destaca la poca expresividad del rostro, asociado a déficit de hormona tiroidea.
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj5-img5.png')
         .p-4
           h5.mb-1 Facie hipocrática
           p.mb-0 En enfermedades como peritonitis o shock (colapso circulatorio). Se caracteriza por un perfil enjuto (delgado), con ojos hundidos, ojeras, palidez y sudor frío.
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj5-img6.png')
         .p-4
           h5.mb-1 Facie mongólica
           p.mb-0 Facie del síndrome de Down.
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj5-img7.png')
         .p-4
           h5.mb-1 Facie parkinsoniana
           p.mb-0 Se ve en pacientes con enfermedad de Parkinson. 
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj5-img8.png')
         .p-4
           h5.mb-1 Facie febril
           p.mb-0 Se caracteriza por rubor en las mejillas, ojos brillantes.
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj5-img9.png')
         .p-4
           h5.mb-1 Facie mitralica
           p.mb-0 Las mejillas se presentan con un rubor cianótico.
+
+    .d-none.d-lg-block
+      SlyderF.mb-4(columnas="col-md-6 col-lg-4" data-aos="fade-down")
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj5-img1.png')
+          .p-4
+            h5.mb-1 Facie acromegálica
+            p.mb-0 Se caracteriza por prominencia de la mandíbula, crecimiento de huesos y tejidos blandos, lengua grande. Esta condición se da en pacientes con tumores hipofisarios debido a hormonas de crecimiento.
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj5-img2.png')
+          .p-4
+            h5.mb-1 Facie cushingoide
+            p.mb-0 La cara se ve más redonda, piel más fina y mayor cantidad de vellos y acné. Se presenta por exceso de corticoides. 
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj5-img3.png')
+          .p-4
+            h5.mb-1 Facie hipertiroidia
+            p.mb-0 Mirada expresiva por retracción del párpado superior; la piel se aprecia fina y húmeda. Se asocia a un exceso de hormonas tiroideas.
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj5-img4.png')
+          .p-4
+            h5.mb-1 Facie hipotiroidia o mixedematosa
+            p.mb-0 Destaca la poca expresividad del rostro, asociado a déficit de hormona tiroidea.
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj5-img5.png')
+          .p-4
+            h5.mb-1 Facie hipocrática
+            p.mb-0 En enfermedades como peritonitis o shock (colapso circulatorio). Se caracteriza por un perfil enjuto (delgado), con ojos hundidos, ojeras, palidez y sudor frío.
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj5-img6.png')
+          .p-4
+            h5.mb-1 Facie mongólica
+            p.mb-0 Facie del síndrome de Down.
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj5-img7.png')
+          .p-4
+            h5.mb-1 Facie parkinsoniana
+            p.mb-0 Se ve en pacientes con enfermedad de Parkinson. 
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj5-img8.png')
+          .p-4
+            h5.mb-1 Facie febril
+            p.mb-0 Se caracteriza por rubor en las mejillas, ojos brillantes.
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj5-img9.png')
+          .p-4
+            h5.mb-1 Facie mitralica
+            p.mb-0 Las mejillas se presentan con un rubor cianótico.
 
     p.mb-4(data-aos="fade") Se debe incluir en esta serie de procedimientos una valoración global del estado del paciente:
 
@@ -970,32 +1046,60 @@
 
     p.mb-4(data-aos="fade") En el momento de evaluar el espesor de una herida se deben tener en cuenta las siguientes características:
 
-    SlyderF.mb-5(columnas="col-md-6 col-lg-4" data-aos="fade-down")
-      .tarjeta.justify-content-center.bg-3
+    .d-block.d-lg-none
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj8-img1.png')
         .p-4
           h5.mb-1 Rasguños
           p Herida de aspecto epidérmico.
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj8-img2.png')
         .p-4
           h5.mb-1 Con erosión
           p Herida con pérdida o no de sustancia de la epidermis.
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj8-img3.png')
         .p-4
           h5.mb-1 Superficial
           p Herida con ausencia de penetración en la cavidad o afectación únicamente en tejido subcutáneo.
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj8-img4.png')
         .p-4
           h5.mb-1 Profunda
           p Herida penetrante que pueda afectar las cavidades torácicas, cervicales, articulaciones, etc.
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj8-img5.png')
         .p-4
           h5.mb-1 Perforante
           p Herida que pueda penetrar cavidades provocando lesiones en vísceras huecas.
+
+    .d-none.d-lg-block
+      SlyderF.mb-5(columnas="col-md-6 col-lg-4" data-aos="fade-down")
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj8-img1.png')
+          .p-4
+            h5.mb-1 Rasguños
+            p Herida de aspecto epidérmico.
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj8-img2.png')
+          .p-4
+            h5.mb-1 Con erosión
+            p Herida con pérdida o no de sustancia de la epidermis.
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj8-img3.png')
+          .p-4
+            h5.mb-1 Superficial
+            p Herida con ausencia de penetración en la cavidad o afectación únicamente en tejido subcutáneo.
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj8-img4.png')
+          .p-4
+            h5.mb-1 Profunda
+            p Herida penetrante que pueda afectar las cavidades torácicas, cervicales, articulaciones, etc.
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj8-img5.png')
+          .p-4
+            h5.mb-1 Perforante
+            p Herida que pueda penetrar cavidades provocando lesiones en vísceras huecas.
 
     p.mb-4(data-aos="fade") En adición, es necesario mencionar otros tipos de categorías y sus correspondientes características para que al observarlas pueda reconocerlas, por lo que le invito a revisar el siguiente contenido:
 
@@ -1113,32 +1217,60 @@
 
     p.mb-4(data-aos="fade") Algunos aspectos importantes a tener en cuenta al momento de aplicar estas técnicas son:
 
-    SlyderF.mb-5(columnas="col-md-6 col-lg-4" data-aos="fade-down")
-      .tarjeta.justify-content-center.bg-3
+    .d-block.d-lg-none
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj9-img1.png')
         .p-4
           h5.mb-1 Compresiones
           p.mb-0 Treinta compresiones de pecho seguidas de dos respiraciones de rescate o salvamento constituyen un ciclo, las respiraciones no se deben aplicar con mucha fuerza.
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj9-img2.png')
         .p-4
           h5.mb-1 Maniobra Frente-mentón
           p.mb-0 Si se observa que el pecho de la víctima no se eleva, se debe repetir la maniobra de inclinar la cabeza y levantar el mentón de la víctima (maniobra frente-mentón) e iniciar un ciclo nuevamente.
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj9-img3.png')
         .p-4
           h5.mb-1 Combinación
           p.mb-0 Lo recomendable es combinar 30 compresiones torácicas con dos respiraciones de rescate.
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj9-img4.png')
         .p-4
           h5.mb-1 RCP
           p.mb-0 La RCP se debe proporcionar hasta que se restablezca la respiración y el corazón comience a latir nuevamente.
-      .tarjeta.justify-content-center.bg-3
+      .tarjeta.justify-content-center.bg-3.mb-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj9-img5.png')
         .p-4
           h5.mb-1 Variantes 
           p.mb-0 Estas técnicas varían según la edad y tamaño de la víctima, pero sus pasos básicos y fundamentales son los mismos: compresión, vía respiratoria y respiración.
+
+    .d-none.d-lg-block
+      SlyderF.mb-5(columnas="col-md-6 col-lg-4" data-aos="fade-down")
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj9-img1.png')
+          .p-4
+            h5.mb-1 Compresiones
+            p.mb-0 Treinta compresiones de pecho seguidas de dos respiraciones de rescate o salvamento constituyen un ciclo, las respiraciones no se deben aplicar con mucha fuerza.
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj9-img2.png')
+          .p-4
+            h5.mb-1 Maniobra Frente-mentón
+            p.mb-0 Si se observa que el pecho de la víctima no se eleva, se debe repetir la maniobra de inclinar la cabeza y levantar el mentón de la víctima (maniobra frente-mentón) e iniciar un ciclo nuevamente.
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj9-img3.png')
+          .p-4
+            h5.mb-1 Combinación
+            p.mb-0 Lo recomendable es combinar 30 compresiones torácicas con dos respiraciones de rescate.
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj9-img4.png')
+          .p-4
+            h5.mb-1 RCP
+            p.mb-0 La RCP se debe proporcionar hasta que se restablezca la respiración y el corazón comience a latir nuevamente.
+        .tarjeta.justify-content-center.bg-3
+          img.mb-2(src='@/assets/curso/temas/t5/tarj9-img5.png')
+          .p-4
+            h5.mb-1 Variantes 
+            p.mb-0 Estas técnicas varían según la edad y tamaño de la víctima, pero sus pasos básicos y fundamentales son los mismos: compresión, vía respiratoria y respiración.
 
     p.mb-5(data-aos="fade") Teniendo en cuenta los elementos anteriores es describir la técnica según la edad, ya que se realiza de diferente manera:
 
@@ -1213,62 +1345,119 @@
 
     p.mb-4(data-aos="fade") En los casos en los que se presentan situaciones que involucran una persona accidentada que requiera atención inmediata, antes de que se presente personal profesional que pueda brindarle atención médica, es fundamental que la persona que vaya a prestar los primeros auxilios tenga presente que la evolución médica de la persona lesionada dependerá de la forma de reacción, por lo cual es importante tener en cuenta los siguientes puntos clave:
 
-    .row.justify-content-center.mb-5(data-aos="fade-down")
-      SlyderF(columnas="col-lg-6 col-xl-4 col-md-12")
-        .bg-3.p-4.h-100.tarjeta
-          .row.justify-content-center.mb-3
-            .col-6
-              img(src='@/assets/curso/temas/t5/tarj10-img1.svg' alt='')
-          .h4.text-center PSICOLÓGICO
-          p.text-center.mb-0 En caso de requerir los primeros auxilios con urgencia es importante conservar la calma.
-        .bg-3.p-4.h-100.tarjeta
-          .row.justify-content-center.mb-3
-            .col-6
-              img(src='@/assets/curso/temas/t5/tarj10-img2.svg' alt='')
-          .h4.text-center RESPETAR LA VIDA
-          p.text-center.mb-0 La prioridad es preservar la vida del accidentado.
-        .bg-3.p-4.h-100.tarjeta
-          .row.justify-content-center.mb-3
-            .col-6
-              img(src='@/assets/curso/temas/t5/tarj10-img3.svg' alt='')
-          .h4.text-center MOVILIDAD
-          p.text-center.mb-0 De no ser necesario no se deberá mover a la persona accidentada.
-        .bg-3.p-4.h-100.tarjeta
-          .row.justify-content-center.mb-3
-            .col-6
-              img(src='@/assets/curso/temas/t5/tarj10-img4.svg' alt='')
-          .h4.text-center EVITAR EXPOSICIONES
-          p.text-center.mb-0 Se debe evitar que el accidentado se vea expuesto a nuevas infecciones o a nuevas lesiones.
-        .bg-3.p-4.h-100.tarjeta
-          .row.justify-content-center.mb-3
-            .col-6
-              img(src='@/assets/curso/temas/t5/tarj10-img5.svg' alt='')
-          .h4.text-center PROHIBICIONES
-          p.text-center.mb-0 No dar alimentos, ni bebidas al paciente.
-        .bg-3.p-4.h-100.tarjeta
-          .row.justify-content-center.mb-3
-            .col-6
-              img(src='@/assets/curso/temas/t5/tarj10-img6.svg' alt='')
-          .h4.text-center MEDICAMENTOS
-          p.text-center.mb-0 No medicar al accidentado, si no es una persona del servicio de salud con certificación profesional.
-        .bg-3.p-4.h-100.tarjeta
-          .row.justify-content-center.mb-3
-            .col-6
-              img(src='@/assets/curso/temas/t5/tarj10-img7.svg' alt='')
-          .h4.text-center ESPERAR AL PROFESIONAL
-          p.text-center.mb-0 Hacer solo lo estrictamente necesario hasta que se presente un profesional que pueda brindar los primeros auxilios.
-        .bg-3.p-4.h-100.tarjeta
-          .row.justify-content-center.mb-3
-            .col-6
-              img(src='@/assets/curso/temas/t5/tarj10-img8.svg' alt='')
-          .h4.text-center TRASLADO
-          p.text-center.mb-0 Se debe realizar un traslado adecuado, tenga en cuenta que debe conocer el estado del paciente para poder movilizarlo y no causarle lesiones mayores.
-        .bg-3.p-4.h-100.tarjeta
-          .row.justify-content-center.mb-3
-            .col-6
-              img(src='@/assets/curso/temas/t5/tarj10-img9.png' alt='')
-          .h4.text-center RESPONSABILIDAD LEGAL
-          p.text-center.mb-0 Si no sabe cómo proceder, abstenerse de actuar, llame a emergencias.
+    .d-block.d-lg-none
+      .bg-3.p-4.h-100.tarjeta.mb-3
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/t5/tarj10-img1.svg' alt='')
+        .h4.text-center PSICOLÓGICO
+        p.text-center.mb-0 En caso de requerir los primeros auxilios con urgencia es importante conservar la calma.
+      .bg-3.p-4.h-100.tarjeta.mb-3
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/t5/tarj10-img2.svg' alt='')
+        .h4.text-center RESPETAR LA VIDA
+        p.text-center.mb-0 La prioridad es preservar la vida del accidentado.
+      .bg-3.p-4.h-100.tarjeta.mb-3
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/t5/tarj10-img3.svg' alt='')
+        .h4.text-center MOVILIDAD
+        p.text-center.mb-0 De no ser necesario no se deberá mover a la persona accidentada.
+      .bg-3.p-4.h-100.tarjeta.mb-3
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/t5/tarj10-img4.svg' alt='')
+        .h4.text-center EVITAR EXPOSICIONES
+        p.text-center.mb-0 Se debe evitar que el accidentado se vea expuesto a nuevas infecciones o a nuevas lesiones.
+      .bg-3.p-4.h-100.tarjeta.mb-3
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/t5/tarj10-img5.svg' alt='')
+        .h4.text-center PROHIBICIONES
+        p.text-center.mb-0 No dar alimentos, ni bebidas al paciente.
+      .bg-3.p-4.h-100.tarjeta.mb-3
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/t5/tarj10-img6.svg' alt='')
+        .h4.text-center MEDICAMENTOS
+        p.text-center.mb-0 No medicar al accidentado, si no es una persona del servicio de salud con certificación profesional.
+      .bg-3.p-4.h-100.tarjeta.mb-3
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/t5/tarj10-img7.svg' alt='')
+        .h4.text-center ESPERAR AL PROFESIONAL
+        p.text-center.mb-0 Hacer solo lo estrictamente necesario hasta que se presente un profesional que pueda brindar los primeros auxilios.
+      .bg-3.p-4.h-100.tarjeta.mb-3
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/t5/tarj10-img8.svg' alt='')
+        .h4.text-center TRASLADO
+        p.text-center.mb-0 Se debe realizar un traslado adecuado, tenga en cuenta que debe conocer el estado del paciente para poder movilizarlo y no causarle lesiones mayores.
+      .bg-3.p-4.h-100.tarjeta.mb-3
+        .row.justify-content-center.mb-3
+          .col-6
+            img(src='@/assets/curso/temas/t5/tarj10-img9.png' alt='')
+        .h4.text-center RESPONSABILIDAD LEGAL
+        p.text-center.mb-0 Si no sabe cómo proceder, abstenerse de actuar, llame a emergencias.
+
+    .d-none.d-lg-block
+      .row.justify-content-center.mb-5(data-aos="fade-down")
+        SlyderF(columnas="col-lg-6 col-xl-4 col-md-12")
+          .bg-3.p-4.h-100.tarjeta
+            .row.justify-content-center.mb-3
+              .col-6
+                img(src='@/assets/curso/temas/t5/tarj10-img1.svg' alt='')
+            .h4.text-center PSICOLÓGICO
+            p.text-center.mb-0 En caso de requerir los primeros auxilios con urgencia es importante conservar la calma.
+          .bg-3.p-4.h-100.tarjeta
+            .row.justify-content-center.mb-3
+              .col-6
+                img(src='@/assets/curso/temas/t5/tarj10-img2.svg' alt='')
+            .h4.text-center RESPETAR LA VIDA
+            p.text-center.mb-0 La prioridad es preservar la vida del accidentado.
+          .bg-3.p-4.h-100.tarjeta
+            .row.justify-content-center.mb-3
+              .col-6
+                img(src='@/assets/curso/temas/t5/tarj10-img3.svg' alt='')
+            .h4.text-center MOVILIDAD
+            p.text-center.mb-0 De no ser necesario no se deberá mover a la persona accidentada.
+          .bg-3.p-4.h-100.tarjeta
+            .row.justify-content-center.mb-3
+              .col-6
+                img(src='@/assets/curso/temas/t5/tarj10-img4.svg' alt='')
+            .h4.text-center EVITAR EXPOSICIONES
+            p.text-center.mb-0 Se debe evitar que el accidentado se vea expuesto a nuevas infecciones o a nuevas lesiones.
+          .bg-3.p-4.h-100.tarjeta
+            .row.justify-content-center.mb-3
+              .col-6
+                img(src='@/assets/curso/temas/t5/tarj10-img5.svg' alt='')
+            .h4.text-center PROHIBICIONES
+            p.text-center.mb-0 No dar alimentos, ni bebidas al paciente.
+          .bg-3.p-4.h-100.tarjeta
+            .row.justify-content-center.mb-3
+              .col-6
+                img(src='@/assets/curso/temas/t5/tarj10-img6.svg' alt='')
+            .h4.text-center MEDICAMENTOS
+            p.text-center.mb-0 No medicar al accidentado, si no es una persona del servicio de salud con certificación profesional.
+          .bg-3.p-4.h-100.tarjeta
+            .row.justify-content-center.mb-3
+              .col-6
+                img(src='@/assets/curso/temas/t5/tarj10-img7.svg' alt='')
+            .h4.text-center ESPERAR AL PROFESIONAL
+            p.text-center.mb-0 Hacer solo lo estrictamente necesario hasta que se presente un profesional que pueda brindar los primeros auxilios.
+          .bg-3.p-4.h-100.tarjeta
+            .row.justify-content-center.mb-3
+              .col-6
+                img(src='@/assets/curso/temas/t5/tarj10-img8.svg' alt='')
+            .h4.text-center TRASLADO
+            p.text-center.mb-0 Se debe realizar un traslado adecuado, tenga en cuenta que debe conocer el estado del paciente para poder movilizarlo y no causarle lesiones mayores.
+          .bg-3.p-4.h-100.tarjeta
+            .row.justify-content-center.mb-3
+              .col-6
+                img(src='@/assets/curso/temas/t5/tarj10-img9.png' alt='')
+            .h4.text-center RESPONSABILIDAD LEGAL
+            p.text-center.mb-0 Si no sabe cómo proceder, abstenerse de actuar, llame a emergencias.
 
     p.mb-4(data-aos="fade") Por último, se debe realizar un traslado adecuado, por lo que es importante resaltar que este solo se debe efectuar en casos extremos en los que el accidentado se encuentre en riesgo de muerte como incendios, electrocución, asfixia, inundación o atrapamiento, entre otros.
 

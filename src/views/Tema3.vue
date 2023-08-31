@@ -157,55 +157,106 @@
 
     p.mb-4(data-aos="fade") A continuación se muestra algunos de los derechos y deberes más importantes para que usted los tenga en cuenta:
 
-    SlyderF(columnas="col-md-6 col-lg-3" data-aos="fade-down")
-      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+    .d-block.d-lg-none
+      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj.mb-3
         img.mb-4(src='@/assets/curso/temas/t3/ico1.svg' style="max-width: 75px;")
         h5.mb-1 1. Buen uso
         p Hacer buen uso de los espacios públicos, mantener limpios y aseados los espacios públicos, cumplir con la adecuada disposición de los desechos hospitalarios y otros.
-      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj.mb-3
         img.mb-4(src='@/assets/curso/temas/t3/ico2.svg' style="max-width: 75px;")
         h5.mb-1 2. Garantía de flujo
         p No obstaculizar los senderos peatonales, aceras, andenes, vías, ciclo rutas, permitiendo la libre circulación de las personas y vehículos. Respetar las normas de convivencia, de tránsito y los derechos de los demás usuarios del espacio público.
-      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj.mb-3
         img.mb-4(src='@/assets/curso/temas/t3/ico3.svg' style="max-width: 75px;")
         h5.mb-1 3. Sentido comunitario
         p Realizar el cargue y descargue de mercancías en los horarios y lugares permitidos y establecidos por las autoridades. Parquear en los sitios permitidos y destinados para tal fin. Transitar por las aceras y andenes y no caminar sobre la vía pública. Caso contrario si se trata de vehículos.
-      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj.mb-3
         img.mb-4(src='@/assets/curso/temas/t3/ico4.svg' style="max-width: 75px;")
         h5.mb-1 4. Honradez y honestidad ciudadanas
         p No dañar, maltratar, robar los elementos que hacen parte del mobiliario urbano, ya que éstos hacen parte del equipamiento de los espacios públicos y mejorando su capacidad de servicio.
-      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj.mb-3
         img.mb-4(src='@/assets/curso/temas/t3/ico5.svg' style="max-width: 75px;")
         h5.mb-1 5. Garantes del cuidado y conservación
         p Conservar los monumentos y esculturas que hacen parte de la arquitectura de los espacios públicos.
-      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj.mb-3
         img.mb-4(src='@/assets/curso/temas/t3/ico6.svg' style="max-width: 75px;")
         h5.mb-1 6. Calidad humana y sentido incluyente
         p Aplicar adecuadamente las competencias ciudadanas, para disfrutar de entornos y espacios tranquilos y de sana convivencia. Tener cuidado de la población vulnerable como niños, niñas, adolescentes, adultos mayores y personas con discapacidad, entre otras.
-      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj.mb-3
         img.mb-4(src='@/assets/curso/temas/t3/ico7.svg' style="max-width: 75px;")
         h5.mb-1 7. Libre acceso
         p Al libre acceso a los espacios públicos sin distinción de género, creencias, raza, etc.
-      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj.mb-3
         img.mb-4(src='@/assets/curso/temas/t3/ico8.svg' style="max-width: 75px;")
         h5.mb-1 8. Espacios diferenciados
         p Al acceso al medio físico y contar con bahías de estacionamiento para personas con movilidad reducida.
-      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj.mb-3
         img.mb-4(src='@/assets/curso/temas/t3/ico9.svg' style="max-width: 75px;")
         h5.mb-1 9. Ser incluidos e incluidas 
         p Mecanismos de integración social para personas en condición de discapacidad.
-      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj.mb-3
         img.mb-4(src='@/assets/curso/temas/t3/ico10.svg' style="max-width: 75px;")
         h5.mb-1 10. Acceso
         p Al uso y disfrute de los espacios públicos en condiciones de seguridad y sana convivencia.
-      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj.mb-3
         img.mb-4(src='@/assets/curso/temas/t3/ico11.svg' style="max-width: 75px;")
         h5.mb-1 11. Implementación urbana
         p A contar con los elementos que hacen parte del mobiliario urbano para mejorar el servicio del espacio público.
-      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+      .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj.mb-3
         img.mb-4(src='@/assets/curso/temas/t3/ico12.svg' style="max-width: 75px;")
         h5.mb-1 12. Uso libre del tiempo
         p A contar con espacios para la recreación, el deporte y el entretenimiento.
+    
+    .d-none.d-lg-block
+      SlyderF(columnas="col-md-6 col-lg-3" data-aos="fade-down")
+        .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+          img.mb-4(src='@/assets/curso/temas/t3/ico1.svg' style="max-width: 75px;")
+          h5.mb-1 1. Buen uso
+          p Hacer buen uso de los espacios públicos, mantener limpios y aseados los espacios públicos, cumplir con la adecuada disposición de los desechos hospitalarios y otros.
+        .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+          img.mb-4(src='@/assets/curso/temas/t3/ico2.svg' style="max-width: 75px;")
+          h5.mb-1 2. Garantía de flujo
+          p No obstaculizar los senderos peatonales, aceras, andenes, vías, ciclo rutas, permitiendo la libre circulación de las personas y vehículos. Respetar las normas de convivencia, de tránsito y los derechos de los demás usuarios del espacio público.
+        .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+          img.mb-4(src='@/assets/curso/temas/t3/ico3.svg' style="max-width: 75px;")
+          h5.mb-1 3. Sentido comunitario
+          p Realizar el cargue y descargue de mercancías en los horarios y lugares permitidos y establecidos por las autoridades. Parquear en los sitios permitidos y destinados para tal fin. Transitar por las aceras y andenes y no caminar sobre la vía pública. Caso contrario si se trata de vehículos.
+        .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+          img.mb-4(src='@/assets/curso/temas/t3/ico4.svg' style="max-width: 75px;")
+          h5.mb-1 4. Honradez y honestidad ciudadanas
+          p No dañar, maltratar, robar los elementos que hacen parte del mobiliario urbano, ya que éstos hacen parte del equipamiento de los espacios públicos y mejorando su capacidad de servicio.
+        .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+          img.mb-4(src='@/assets/curso/temas/t3/ico5.svg' style="max-width: 75px;")
+          h5.mb-1 5. Garantes del cuidado y conservación
+          p Conservar los monumentos y esculturas que hacen parte de la arquitectura de los espacios públicos.
+        .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+          img.mb-4(src='@/assets/curso/temas/t3/ico6.svg' style="max-width: 75px;")
+          h5.mb-1 6. Calidad humana y sentido incluyente
+          p Aplicar adecuadamente las competencias ciudadanas, para disfrutar de entornos y espacios tranquilos y de sana convivencia. Tener cuidado de la población vulnerable como niños, niñas, adolescentes, adultos mayores y personas con discapacidad, entre otras.
+        .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+          img.mb-4(src='@/assets/curso/temas/t3/ico7.svg' style="max-width: 75px;")
+          h5.mb-1 7. Libre acceso
+          p Al libre acceso a los espacios públicos sin distinción de género, creencias, raza, etc.
+        .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+          img.mb-4(src='@/assets/curso/temas/t3/ico8.svg' style="max-width: 75px;")
+          h5.mb-1 8. Espacios diferenciados
+          p Al acceso al medio físico y contar con bahías de estacionamiento para personas con movilidad reducida.
+        .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+          img.mb-4(src='@/assets/curso/temas/t3/ico9.svg' style="max-width: 75px;")
+          h5.mb-1 9. Ser incluidos e incluidas 
+          p Mecanismos de integración social para personas en condición de discapacidad.
+        .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+          img.mb-4(src='@/assets/curso/temas/t3/ico10.svg' style="max-width: 75px;")
+          h5.mb-1 10. Acceso
+          p Al uso y disfrute de los espacios públicos en condiciones de seguridad y sana convivencia.
+        .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+          img.mb-4(src='@/assets/curso/temas/t3/ico11.svg' style="max-width: 75px;")
+          h5.mb-1 11. Implementación urbana
+          p A contar con los elementos que hacen parte del mobiliario urbano para mejorar el servicio del espacio público.
+        .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
+          img.mb-4(src='@/assets/curso/temas/t3/ico12.svg' style="max-width: 75px;")
+          h5.mb-1 12. Uso libre del tiempo
+          p A contar con espacios para la recreación, el deporte y el entretenimiento.
 
 
     Separador

@@ -83,8 +83,8 @@
 
     p.mb-4(data-aos="fade") A continuación se exponen en el siguiente recurso los ejemplos de cada una de las señales reglamentarias de prohibición:
 
-    SlyderF.mb-5(columnas="col-md-6 col-lg-4" data-aos="fade-down")
-      .tarjeta.justify-content-center.p-4.text-center.bg-color-primario
+    .d-block.d-lg-none
+      .tarjeta.justify-content-center.p-4.text-center.bg-color-primario.mb-3
         img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj-img1.png' style="max-width: 180px")
         h4 Señales de prohibición primer grupo
         p.mb-4 Prohibición de maniobras y giros
@@ -92,27 +92,59 @@
           a.boton.personalizado.indicador__container(:href="obtenerLink('/downloads/ProhibicionPrimergrupo.pdf')" target="_blank" type="application/pdf" @mouseover="mostrarIndicador = false")
             span Ver señales
             .indicador--click(v-if="mostrarIndicador")
-      .tarjeta.justify-content-center.p-4.text-center.bg-color-primario
+      .tarjeta.justify-content-center.p-4.text-center.bg-color-primario.mb-3
         img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj-img2.png' style="max-width: 180px")
         h4 Señales de prohibición segundo grupo
         p.mb-4 Prohibición de maniobras y giros
         .d-flex.mt-auto.justify-content-center.mb-0
           a.boton.personalizado(:href="obtenerLink('/downloads/ProhibicionSegundoGrupo.pdf')" target="_blank" type="application/pdf")
             span Ver señales
-      .tarjeta.justify-content-center.p-4.text-center.bg-color-primario
+      .tarjeta.justify-content-center.p-4.text-center.bg-color-primario.mb-3
         img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj-img3.png' style="max-width: 180px")
         h4 Señales de prohibición tercer grupo
         p.mb-4 Otras prohibiciones relacionadas a velocidad, luces, tipo de vehículo, etc.
         .d-flex.mt-auto.justify-content-center.mb-0
           a.boton.personalizado(:href="obtenerLink('/downloads/ProhibicionTercerGrupo.pdf')" target="_blank" type="application/pdf")
             span Ver señales
-      .tarjeta.justify-content-center.p-4.text-center.bg-color-primario
+      .tarjeta.justify-content-center.p-4.text-center.bg-color-primario.mb-3
         img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj-img4.png' style="max-width: 190px")
         h4 Señales de prohibición cuarto grupo
         p.mb-4 Prohibición de maniobras y circulación.
         .d-flex.mt-auto.justify-content-center.mb-0
           a.boton.personalizado(:href="obtenerLink('/downloads/ProhibicionCuartoGrupo.pdf')" target="_blank" type="application/pdf")
             span Ver señales
+    
+    .d-none.d-lg-block
+      SlyderF.mb-5(columnas="col-md-6 col-lg-4" data-aos="fade-down")
+        .tarjeta.justify-content-center.p-4.text-center.bg-color-primario
+          img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj-img1.png' style="max-width: 180px")
+          h4 Señales de prohibición primer grupo
+          p.mb-4 Prohibición de maniobras y giros
+          .d-flex.mt-auto.justify-content-center.mb-0
+            a.boton.personalizado.indicador__container(:href="obtenerLink('/downloads/ProhibicionPrimergrupo.pdf')" target="_blank" type="application/pdf" @mouseover="mostrarIndicador = false")
+              span Ver señales
+              .indicador--click(v-if="mostrarIndicador")
+        .tarjeta.justify-content-center.p-4.text-center.bg-color-primario
+          img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj-img2.png' style="max-width: 180px")
+          h4 Señales de prohibición segundo grupo
+          p.mb-4 Prohibición de maniobras y giros
+          .d-flex.mt-auto.justify-content-center.mb-0
+            a.boton.personalizado(:href="obtenerLink('/downloads/ProhibicionSegundoGrupo.pdf')" target="_blank" type="application/pdf")
+              span Ver señales
+        .tarjeta.justify-content-center.p-4.text-center.bg-color-primario
+          img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj-img3.png' style="max-width: 180px")
+          h4 Señales de prohibición tercer grupo
+          p.mb-4 Otras prohibiciones relacionadas a velocidad, luces, tipo de vehículo, etc.
+          .d-flex.mt-auto.justify-content-center.mb-0
+            a.boton.personalizado(:href="obtenerLink('/downloads/ProhibicionTercerGrupo.pdf')" target="_blank" type="application/pdf")
+              span Ver señales
+        .tarjeta.justify-content-center.p-4.text-center.bg-color-primario
+          img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj-img4.png' style="max-width: 190px")
+          h4 Señales de prohibición cuarto grupo
+          p.mb-4 Prohibición de maniobras y circulación.
+          .d-flex.mt-auto.justify-content-center.mb-0
+            a.boton.personalizado(:href="obtenerLink('/downloads/ProhibicionCuartoGrupo.pdf')" target="_blank" type="application/pdf")
+              span Ver señales
     
     
     .row.justify-content-start.mb-4
@@ -177,8 +209,8 @@
 
     p.mb-4(data-aos="fade") A continuación puede observar la representación visual de cada una de las señales preventivas sobre características geométricas de la vía y su clasificación mencionadas en la tabla anterior.
 
-    SlyderF.mb-5(columnas="col-md-6 col-lg-4" data-aos="fade-down")
-      .tarjeta.justify-content-center.p-4.text-center.bg-color-primario
+    .d-block.d-lg-none
+      .tarjeta.justify-content-center.p-4.text-center.bg-color-primario.mb-3
         img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj2-img1.png' style="max-width: 180px")
         h4 Señales preventivas primer grupo
         p.mb-4 De curvatura horizontal
@@ -186,7 +218,7 @@
           a.boton.personalizado.indicador__container(:href="obtenerLink('/downloads/PreventivasPrimerGrupo.pdf')" target="_blank" type="application/pdf" @mouseover="mostrarIndicador = false")
             span Ver señales
             .indicador--click(v-if="mostrarIndicador")
-      .tarjeta.justify-content-center.p-4.bg-color-primario
+      .tarjeta.justify-content-center.p-4.bg-color-primario.mb-3
         img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj2-img2.png' style="max-width: 180px")
         h4.text-center Señales preventivas segundo grupo
         ul.lista-ul--color.fa-ul.circulo.mb-4
@@ -202,14 +234,14 @@
         .d-flex.mt-auto.justify-content-center.mb-0
           a.boton.personalizado(:href="obtenerLink('/downloads/PreventivasSegundoGrupo.pdf')" target="_blank" type="application/pdf")
             span Ver señales
-      .tarjeta.justify-content-center.p-4.text-center.bg-color-primario
+      .tarjeta.justify-content-center.p-4.text-center.bg-color-primario.mb-3
         img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj2-img3.png' style="max-width: 180px")
         h4 Señales preventivas tercer grupo
         p.mb-4 Preventivas de Intersecciones con otras vías.
         .d-flex.mt-auto.justify-content-center.mb-0
           a.boton.personalizado(:href="obtenerLink('/downloads/PreventivasTercerGrupo.pdf')" target="_blank" type="application/pdf")
             span Ver señales
-      .tarjeta.justify-content-center.p-4.bg-color-primario
+      .tarjeta.justify-content-center.p-4.bg-color-primario.mb-3
         img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj2-img4.png' style="max-width: 190px")
         h4.text-center Señales preventivas cuarto grupo
         ul.lista-ul--color.fa-ul.circulo.mb-4
@@ -222,6 +254,53 @@
         .d-flex.mt-auto.justify-content-center.mb-0
           a.boton.personalizado(:href="obtenerLink('/downloads/PreventivasCuartoGrupo.pdf')" target="_blank" type="application/pdf")
             span Ver señales
+
+    .d-none.d-lg-block
+      SlyderF.mb-5(columnas="col-md-6 col-lg-4" data-aos="fade-down")
+        .tarjeta.justify-content-center.p-4.text-center.bg-color-primario
+          img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj2-img1.png' style="max-width: 180px")
+          h4 Señales preventivas primer grupo
+          p.mb-4 De curvatura horizontal
+          .d-flex.mt-auto.justify-content-center.mb-0
+            a.boton.personalizado.indicador__container(:href="obtenerLink('/downloads/PreventivasPrimerGrupo.pdf')" target="_blank" type="application/pdf" @mouseover="mostrarIndicador = false")
+              span Ver señales
+              .indicador--click(v-if="mostrarIndicador")
+        .tarjeta.justify-content-center.p-4.bg-color-primario
+          img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj2-img2.png' style="max-width: 180px")
+          h4.text-center Señales preventivas segundo grupo
+          ul.lista-ul--color.fa-ul.circulo.mb-4
+            li.mb-0
+              i.fas.fa-circle
+              | Pendientes longitudinales.
+            li.mb-0
+              i.fas.fa-circle
+              | Preventivas relacionadas con la superficie de rodadura.
+            li.mb-0
+              i.fas.fa-circle
+              | Preventivas sobre restricciones  físicas de la vía.
+          .d-flex.mt-auto.justify-content-center.mb-0
+            a.boton.personalizado(:href="obtenerLink('/downloads/PreventivasSegundoGrupo.pdf')" target="_blank" type="application/pdf")
+              span Ver señales
+        .tarjeta.justify-content-center.p-4.text-center.bg-color-primario
+          img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj2-img3.png' style="max-width: 180px")
+          h4 Señales preventivas tercer grupo
+          p.mb-4 Preventivas de Intersecciones con otras vías.
+          .d-flex.mt-auto.justify-content-center.mb-0
+            a.boton.personalizado(:href="obtenerLink('/downloads/PreventivasTercerGrupo.pdf')" target="_blank" type="application/pdf")
+              span Ver señales
+        .tarjeta.justify-content-center.p-4.bg-color-primario
+          img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj2-img4.png' style="max-width: 190px")
+          h4.text-center Señales preventivas cuarto grupo
+          ul.lista-ul--color.fa-ul.circulo.mb-4
+            li.mb-0
+              i.fas.fa-circle
+              | Preventivas sobre características operativas de la vía.
+            li.mb-0
+              i.fas.fa-circle
+              | Preventivas sobre situaciones especiales.
+          .d-flex.mt-auto.justify-content-center.mb-0
+            a.boton.personalizado(:href="obtenerLink('/downloads/PreventivasCuartoGrupo.pdf')" target="_blank" type="application/pdf")
+              span Ver señales
 
 
     .row.justify-content-start.mb-4
@@ -243,7 +322,7 @@
 
     .row.mb-5.justify-content-center(data-aos="fade-down")
       .col-lg-4.col-md-6.mb-3.mb-lg-0
-        .tarjeta.justify-content-center.p-4.text-center.bg-color-primario.h-100
+        .tarjeta.justify-content-center.p-4.bg-color-primario.h-100
           img.mb-4.mx-auto(src='@/assets/curso/temas/t2/tarj3-img1.png' style="max-width: 180px")
           h4.text-center Señales informativas primer grupo
           ul.lista-ul--color.fa-ul.circulo.mb-4
