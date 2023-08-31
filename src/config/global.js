@@ -217,13 +217,14 @@ export default {
       referencia:
         'Ministerio de salud de Argentina. (2016). Manual de primeros auxilios y prevención de lesiones. ',
       tipo: 'PDF',
-      descarga: '/downloads/manual_1ros_auxilios_web.pdf',
+      link:
+        'https://www.argentina.gob.ar/sites/default/files/manual_1ros_auxilios_web.pdf ',
     },
     {
       tema: 'Valoración de la víctima (<em>triage</em>) concepto de anamnesis ',
       referencia:
         'Vásquez Guzmán, M.A & Morales, Hernández A.E. et al. (2017). Correlación clínica del triage con el diagnóstico clínico de ingreso y egreso realizado con los pacientes que acuden al servicio médico en urgencias de un hospital privado.',
-      tipo: 'web-artículo',
+      tipo: 'Web-artículo',
       link:
         'https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0186-48662017000400466',
     },
@@ -281,11 +282,11 @@ export default {
     },
     {
       termino: 'PMT',
-      significado: 'Plan de Manejo de Tráfico',
+      significado: ' Plan de Manejo de Tráfico',
     },
     {
       termino: 'POT',
-      significado: 'Plan de ordenamiento Territorial',
+      significado: ' Plan de ordenamiento Territorial',
     },
   ],
   referencias: [

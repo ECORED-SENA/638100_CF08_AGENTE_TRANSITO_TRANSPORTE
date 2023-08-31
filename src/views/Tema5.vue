@@ -47,7 +47,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Código Penal Artículo 152
-                  p.text-small.mb-0 Dichos aspectos están contenidos en el Código Penal Colombiano en su artículo 152 y los puede consultar en la siguiente página
+                  p.text-small.mb-0 Dichos aspectos están contenidos en el Código Penal Colombiano en su artículo 152 y los puede consultar en la siguiente página.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="('https://leyes.co/codigo_penal/152.htm#&#58;~&#58;text=El%20que%2C%20con%20ocasi%C3%B3n%20y,seis%20&#40;66.66&#41;%20a%20ciento%20cincuenta')" target="_blank")
                     span Ir al sitio
@@ -218,7 +218,7 @@
             tr.bg-2
               th.col-30 TIPO MECANISMO
               th VALORACIÓN
-              th SOSPECHA DE LESION
+              th SOSPECHA DE LESIÓN
           tbody
             tr
               td.text-center COLISIÓN
@@ -468,7 +468,7 @@
 
     .row.justify-content-center 
       .col-lg-8.mb-4(data-aos="fade-right") 
-        p Dentro de los protocolos de emergencia es fundamental la preservación y el cuidado inicial de la escena y los peligros que en lugar se puedan presentar al momento de brindar los primeros auxilios, por lo que es primordial realizar el debido aseguramiento de la escena teniendo en cuenta las medidas de precaución, delimitación y señalización del área donde se está atendiendo la contingencia, buscando con esto tener el control absoluto del lugar del acontecimiento y evitar así que se presenten efectos secundarios al personal que esté prestando sus servicio en atención a la emergencia, a las víctimas involucradas o a las personas que se encuentran cerca de la escena.
+        p Dentro de los protocolos de emergencia es fundamental la preservación y el cuidado inicial de la escena y los peligros que en lugar se puedan presentar al momento de brindar los primeros auxilios, por lo que es primordial realizar el debido aseguramiento de la escena teniendo en cuenta las medidas de precaución, delimitación y señalización del área donde se está atendiendo la contingencia, buscando con esto tener el control absoluto del lugar del acontecimiento y evitar así que se presenten efectos secundarios al personal que esté prestando servicios en atención a la emergencia, a las víctimas involucradas o a las personas que se encuentran cerca de la escena.
         p Previo a cualquier intervención en el área de emergencia, viene la valoración que debe tener en cuenta los siguientes puntos claves:
       .col-lg-4.d-lg-block.d-none.mb-4(data-aos="fade-left") 
         img(src='@/assets/curso/temas/t5/img7.png', alt='')
@@ -636,7 +636,7 @@
         img.mb-2(src='@/assets/curso/temas/t5/tarj5-img2.png')
         .p-4
           h5.mb-1 Facie cushingoide
-          p.mb-0Una vez se realiza la evaluación se determina que los signos vitales están estables y están dentro de los parámetros y de los límites normales. En esta condición, generalmente el paciente se encuentra consciente y en general en un estado de comodidad.
+          p.mb-0 La cara se ve más redonda, piel más fina y mayor cantidad de vellos y acné. Se presenta por exceso de corticoides. 
       .tarjeta.justify-content-center.bg-3
         img.mb-2(src='@/assets/curso/temas/t5/tarj5-img3.png')
         .p-4
@@ -1270,7 +1270,7 @@
           .h4.text-center RESPONSABILIDAD LEGAL
           p.text-center.mb-0 Si no sabe cómo proceder, abstenerse de actuar, llame a emergencias.
 
-    p.mb-4(data-aos="fade") Por último, se debe realizar un traslado adecuado, por lo que es importante resaltar que este solo se debe efectuar en casos en casos extremos en los que el accidentado se encuentre en riesgo de muerte como incendios, electrocución, asfixia, inundación o atrapamiento, entre otros.
+    p.mb-4(data-aos="fade") Por último, se debe realizar un traslado adecuado, por lo que es importante resaltar que este solo se debe efectuar en casos extremos en los que el accidentado se encuentre en riesgo de muerte como incendios, electrocución, asfixia, inundación o atrapamiento, entre otros.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
@@ -1544,7 +1544,7 @@
               p Generalmente el tensiómetro (aparato que mide la presión arterial) muestra primero la presión sistólica (número mayor) y luego la presión diastólica (número menor), así: 90/60, lo cual quiere decir: #[b que la presión sistólica es de 90 y la presión diastólica es de 60.]
               p.mb-0 Una presión arterial mayor a estos rangos puede generar factores de riesgo y por eso es importante consultar al profesional de la salud.
 
-    p.mb-5(data-aos="fade") Si se dispone del equipo para tomar la tensión arterial, se debe anotar la tensión del lesionado y hacer tres tomas para verificar los valores. El rango normal es 90/60 mm Hg hasta 120/80 mm Hg (milímetros de mercurio)
+    p.mb-5(data-aos="fade") Si se dispone del equipo para tomar la tensión arterial, se debe anotar la tensión del lesionado y hacer tres tomas para verificar los valores. El rango normal es 90/60 mm Hg hasta 120/80 mm Hg (milímetros de mercurio).
 
     .row.justify-content-start.mb-4
       .col-auto(data-aos="fade")
@@ -1844,7 +1844,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 #[em triage] 
+                  h3.mb-1 #[em Triage] 
                   p.text-small Sabe qué es el #[em triage] y por qué es importante en un servicio de salud… Secretaria de salud de Zipaquirá
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="('https://www.youtube.com/watch?v=85qzAbncauM')" target="_blank")
@@ -1960,7 +1960,7 @@
           .row  
             p Para profundizar en el tema revise  los siguientes documentos como parte de su aprendizaje autónomo.
             .col-lg-6.mb-3
-              a.anexo(:href="obtenerLink('/downloads/ley_769_2002.pdf')" target="_blank")
+              a.anexo(:href="('https://www.oas.org/juridico/spanish/mesicic2_col_ley_769_2002.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -2077,7 +2077,7 @@
         img(src='@/assets/curso/temas/t5/img38.png', alt='')
       .col-lg-8.mb-4(data-aos="fade-left")
         p Es muy importante resaltar que al entrar el Nuevo Código de Procedimiento Penal con la Ley 906 de 2004, expuesto en el punto anterior, las víctimas ya no son solo la parte civil en procesos para exigir se aplique la ley para resarcir estos perjuicios, sino que los amparan los tres derechos descritos: el derecho a la verdad, el derecho a la justicia y el derecho a la reparación.  
-        p Es por esto que hay que diferenciar la Ley 600 de 2000 y la Ley 906 de 2004, correspondientes a  los códigos de procedimiento penal,, pues si se realiza una comparación, se puede demostrar la mejora en el último código pues solo satisface a uno de los tres derechos que es la verdad, dejando descubiertos los otros dos, ya que el afectado o víctima se presentaba como parte civil y tenía la responsabilidad de aportar elementos para encontrar la verdad, aportar pruebas o en caso de no contar con los mecanismos,  solicitando las mismas, teniendo en cuenta que  si no estaba de acuerdo se podía llegar a una segunda instancia.
+        p Es por esto que hay que diferenciar la Ley 600 de 2000 y la Ley 906 de 2004, correspondientes a  los códigos de procedimiento penal, pues si se realiza una comparación, se puede demostrar la mejora en el último código pues solo satisface a uno de los tres derechos que es la verdad, dejando descubiertos los otros dos, ya que el afectado o víctima se presentaba como parte civil y tenía la responsabilidad de aportar elementos para encontrar la verdad, aportar pruebas o en caso de no contar con los mecanismos,  solicitando las mismas, teniendo en cuenta que  si no estaba de acuerdo se podía llegar a una segunda instancia.
 
     .tarjeta.bg-4.p-4.mb-4
       p.mb-0 Por lo tanto, en un trabajo unificado entre el fiscal y la víctima se llegaba al posible descubrimiento de la verdad y de impartirse justicia, pero estos procedimientos hicieron que la Ley 600 del año 2000 colapsara, dado los manejos tramposos de algunos abogados, dilatando las solicitudes aprovechándose de la débil estructura legislativa en Colombia que en otras condiciones pudo haber funcionado como estaba concebida.
@@ -2100,19 +2100,19 @@
       .col-lg-10
         .tarjeta.bg-4.p-4
           .row  
-            p Para profundizar en su aprendizaje se le invita a descargar:
+            p Para profundizar en su aprendizaje se le invita a consultar:
             .col-lg-6
-              a.anexo.mb-4(:href="obtenerLink('/downloads/Ley_906_de_2004.pdf')" target="_blank")
+              a.anexo.mb-4(:href="('https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=14787')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
                   p #[b Anexo.] Ley 906 de 2004 
-              a.anexo.mb-4(:href="obtenerLink('/downloads/2000_codigopenal_colombia.pdf')" target="_blank")
+              a.anexo.mb-4(:href="('https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=6388')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
                   p #[b Anexo.] Ley 599 de 2000
-              a.anexo.mb-4(:href="obtenerLink('/downloads/Constitucion_Politica_de_Colombia_1991.pdf')" target="_blank")
+              a.anexo.mb-4(:href="('https://www.registraduria.gov.co/IMG/pdf/constitucio-politica-colombia-1991.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto

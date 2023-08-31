@@ -442,7 +442,7 @@
             .col-lg-2.col-md-2.col-3.mb-3.mb-lg-0.mx-auto
               img.px-lg-4(src='@/assets/curso/temas/t1/alert.svg', alt='')
             .col-lg-10.col-md-10
-              p.mb-0 El manual recomienda la utilización de señales preventivas para eventos especiales y da unas recomendaciones en el capítulo 8 numeral 8.6.4. sobre cómo realizar operativos de control de tránsito y seguridad ciudadana
+              p.mb-0 El manual recomienda la utilización de señales preventivas para eventos especiales y da unas recomendaciones en el capítulo 8 numeral 8.6.4. sobre cómo realizar operativos de control de tránsito y seguridad ciudadana.
 
 
 </template>

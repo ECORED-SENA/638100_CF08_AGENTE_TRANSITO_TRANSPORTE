@@ -155,7 +155,7 @@
             .col-lg-10.col-md-10
               p.mb-0 Si bien el diseño, construcción, mantenimiento y conservación es competencia de las autoridades, el hacer buen uso de ellos es tarea y compromiso de toda la ciudadanía, sin importar las condiciones particulares de los individuos.
 
-    p.mb-4(data-aos="fade") El siguiente esquema muestra algunos de los derechos y deberes más importantes para que usted los tenga en cuenta:
+    p.mb-4(data-aos="fade") A continuación se muestra algunos de los derechos y deberes más importantes para que usted los tenga en cuenta:
 
     SlyderF(columnas="col-md-6 col-lg-3" data-aos="fade-down")
       .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
@@ -164,12 +164,12 @@
         p Hacer buen uso de los espacios públicos, mantener limpios y aseados los espacios públicos, cumplir con la adecuada disposición de los desechos hospitalarios y otros.
       .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
         img.mb-4(src='@/assets/curso/temas/t3/ico2.svg' style="max-width: 75px;")
-        h5.mb-1 2.Garantía de flujo
+        h5.mb-1 2. Garantía de flujo
         p No obstaculizar los senderos peatonales, aceras, andenes, vías, ciclo rutas, permitiendo la libre circulación de las personas y vehículos. Respetar las normas de convivencia, de tránsito y los derechos de los demás usuarios del espacio público.
       .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
         img.mb-4(src='@/assets/curso/temas/t3/ico3.svg' style="max-width: 75px;")
         h5.mb-1 3. Sentido comunitario
-        p Realizar el cargue y descargue de mercancías en los horarios y lugares permitidos y establecidos por las autoridades. Parquear en los sitios permitidos y destinados para tal fin. Transitar por las aceras y andes y no caminar sobre la vía pública. Caso contrario si se trata de vehículos.
+        p Realizar el cargue y descargue de mercancías en los horarios y lugares permitidos y establecidos por las autoridades. Parquear en los sitios permitidos y destinados para tal fin. Transitar por las aceras y andenes y no caminar sobre la vía pública. Caso contrario si se trata de vehículos.
       .tarjeta.justify-content-center.p-4.bg-color-primario.bg-tarj
         img.mb-4(src='@/assets/curso/temas/t3/ico4.svg' style="max-width: 75px;")
         h5.mb-1 4. Honradez y honestidad ciudadanas
