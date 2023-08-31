@@ -199,11 +199,7 @@ export default {
         titulo: 'Descargar PDF',
         download: 'downloads/638100_CF08_DU.zip',
       },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
+
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
