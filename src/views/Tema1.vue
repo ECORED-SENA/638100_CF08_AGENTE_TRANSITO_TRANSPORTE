@@ -138,8 +138,6 @@
     p.mb-4(data-aos="fade") Este sistema registra cada una de las carreteras existentes identificadas por su categoría, ubicación, especificaciones, extensión, puentes, poblaciones a las que sirven, estado de las mismas, proyectos nuevos, intervenciones futuras. Presenta información acerca de inventario vial del país, proyectos viales en ejecución, cifras, entre otros.
 
 
-
-
       
 </template>
 
