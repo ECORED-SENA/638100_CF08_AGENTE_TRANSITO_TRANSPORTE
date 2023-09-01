@@ -133,7 +133,7 @@
             .col-lg-2.col-md-2.col-3.mb-3.mb-lg-0.mx-auto
               img.px-lg-3(src='@/assets/curso/temas/t1/alert.svg', alt='')
             .col-lg-10.col-md-10
-              p.mb-0 En Colombia, el Ministerio de Transporte mediante Resolución 339 del 26 de febrero de 1999 “Artículo 10, creó el Sistema Integral Nacional de Información de Carreteras "SINC", como un sistema público de información único nacional que ofrece toda la información correspondiente a vías a cargo de la Nación, de los departamentos, los municipios y los distritos especiales y que conformarán el inventario nacional de carreteras.
+              p.mb-0 En Colombia, el Ministerio de Transporte mediante Resolución 339 del 26 de febrero de 1999 Artículo 10, creó el Sistema Integral Nacional de Información de Carreteras "SINC", como un sistema público de información único nacional que ofrece toda la información correspondiente a vías a cargo de la Nación, de los departamentos, los municipios y los distritos especiales y que conformarán el inventario nacional de carreteras.
 
     p.mb-4(data-aos="fade") Este sistema registra cada una de las carreteras existentes identificadas por su categoría, ubicación, especificaciones, extensión, puentes, poblaciones a las que sirven, estado de las mismas, proyectos nuevos, intervenciones futuras. Presenta información acerca de inventario vial del país, proyectos viales en ejecución, cifras, entre otros.
 
